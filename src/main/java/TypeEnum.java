@@ -11,6 +11,7 @@ public enum TypeEnum {
     STRING("string"),
     DATE("date"),
     INTEGER("integer"),
+    INT("int"),
     DOUBLE("double"),
     LONG("long"),
     BIGDECIMAL("bigdecimal"),
@@ -34,6 +35,7 @@ public enum TypeEnum {
         lsNoWrapper.add("boolean");
         lsNoWrapper.add("long");
         lsNoWrapper.add("double");
+        lsNoWrapper.add("short");
         lsNoWrapper.add("byte[]");
     }
 

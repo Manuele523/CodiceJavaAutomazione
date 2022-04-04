@@ -15,15 +15,19 @@ import java.util.Map;
 @ToString
 public class SubObjectClass {
 
-    private String vbSubString;
-    private Date vbSubDate;
-    private Integer vbSubInteger;
-    private Double dbSubDouble;
-    private Long vbSubLong;
-    private BigDecimal dvSubBigDecimal;
-    private Short vbSubShort;
-    private Boolean vbSubBoolean;
-    private byte[] vbSubByte;
+    private String vbString;
+    private Date vbDate;
+    private Integer vbInteger;
+    private int vb_int;
+    private Double vbDouble;
+    private double vb_double;
+    private Long vbLong;
+    private long vb_long;
+    private BigDecimal vbBigDecimal;
+    private Short vbShort;
+    private short vb_short;
+    private Boolean vbBoolean;
+    private boolean vb_boolean;
     private List<Long> lsSubObject;
     private Map<Integer,String> mapIntegerString;
     private ObjectEnum vbSubObjectEnum;

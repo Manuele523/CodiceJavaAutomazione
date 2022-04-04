@@ -40,6 +40,7 @@ public class AutomaticPopulation {
         mapNoWrapper.put("boolean", boolean.class);
         mapNoWrapper.put("long", long.class);
         mapNoWrapper.put("double", double.class);
+        mapNoWrapper.put("short", short.class);
         mapNoWrapper.put("byte[]", byte[].class);
 
         mapEnumValue.put(TypeEnum.DATE, new Date(0L));
