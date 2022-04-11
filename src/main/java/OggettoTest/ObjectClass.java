@@ -32,9 +32,9 @@ public class ObjectClass {
     private byte[] vbByte;
     private SubObjectClass vbSubObject;
     private List<SubObjectClass> lsSubObject;
-    private Map<Integer,String> mapIntegerString;
-    private Map<String,Boolean> mapStringBoolean;
-    private Map<Long,SubObjectClass> mapLongObject;
+    private Map<Integer, String> mapIntegerString;
+    private Map<String, Boolean> mapStringBoolean;
+    private Map<Long, SubObjectClass> mapLongObject;
     private ObjectEnum vbObjectEnum;
 
 
