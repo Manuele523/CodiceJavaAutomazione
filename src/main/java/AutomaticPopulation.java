@@ -49,7 +49,8 @@ public class AutomaticPopulation {
         mapEnumValue.put(TypeEnum.DOUBLE, 5.5);
         mapEnumValue.put(TypeEnum.LONG, 1L);
         mapEnumValue.put(TypeEnum.INTEGER, 2);
-        mapEnumValue.put(TypeEnum.SHORT, (short) 3);
+        mapEnumValue.put(TypeEnum.INT, 3);
+        mapEnumValue.put(TypeEnum.SHORT, (short) 4);
         mapEnumValue.put(TypeEnum.BOOLEAN, false);
         mapEnumValue.put(TypeEnum.BYTE, "byteArray".getBytes());
     }
@@ -126,6 +127,7 @@ public class AutomaticPopulation {
                 case STRING:
                 case DATE:
                 case INTEGER:
+                case INT:
                 case DOUBLE:
                 case BYTE:
                 case LONG:
