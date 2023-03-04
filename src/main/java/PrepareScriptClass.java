@@ -7,9 +7,11 @@ import static Utils.PreprareCommonScript.TypeTable.T_PAD_NOTE_PRATICA;
 public class PrepareScriptClass {
 
     /*******************************************************************************************************************
-    * <p>                                METODO PER CREARE LE UPDATE DELLA NOTA PER                               </p> *
-    * <p>                                            T_PAD_NOTE_PRATICA                                           </p> *
-    * <p>                                                                                                         </p> *
+    * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER - T_PAD_NOTE_PRATICA                                         </p> *
+    *                                                                                                                  *
+    * <p> preNotaPratica -> Inserisci la tua nota                                                                 </p> *
+    * <p> idNotePratica  -> Inserisci l'id della nota da aggiornare                                               </p> *
+    *                                                                                                                  *
     *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_T_PAD_NOTE_PRATICA() {
@@ -19,9 +21,11 @@ public class PrepareScriptClass {
     }
 
     /*******************************************************************************************************************
-    * <p>                                METODO PER CREARE LE UPDATE DELLA NOTA PER                               </p> *
-    * <p>                                                T_PAD_FIDO                                               </p> *
-    * <p>                                                                                                         </p> *
+    * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER - T_PAD_FIDO                                                 </p> *
+    *                                                                                                                  *
+    * <p> preNotaFido -> Inserisci la tua nota                                                                    </p> *
+    * <p> idFido      -> Inserisci l'id della nota da aggiornare                                                  </p> *
+    *                                                                                                                  *
     *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_T_PAD_FIDO() {
