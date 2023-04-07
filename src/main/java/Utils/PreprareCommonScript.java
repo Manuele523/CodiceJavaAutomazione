@@ -2,6 +2,8 @@ package Utils;
 
 import org.apache.commons.lang.StringUtils;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -17,25 +19,29 @@ public class PreprareCommonScript {
 
     public static Integer idNotePratica, idFido;
 
-    public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE' WHERE ID_NOTA = QUI_METTI_ID; ",
-            queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID; ";
+    public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE' WHERE ID_NOTA = QUI_METTI_ID;\n",
+            queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n";
 
     public static void prepareComuneScript(String nota, TypeTable tableName, Integer id) {
         AtomicReference<Boolean> isFirst = new AtomicReference<>(true);
         String[] results = nota.split("(?<=\\G.{850})");
+        final String[] script = {"SET DEFINE OFF;\n"};
 
         getColumnName(tableName);
 
-        System.out.println("SET DEFINE OFF;");
         Arrays.stream(results).forEach(r -> {
-            System.out.println(query
+            script[0] += (query
                     .replace("QUI_IL_TIPO", isFirst.get() ? segnoUguale : segnoConcatena.replace("TIPO", campo))
                     .replace("STRINGA_DA_CAMBIARE", r.replaceAll("'", "''"))
                     .replace("QUI_METTI_ID", id.toString()));
 
+
             isFirst.set(false);
         });
-        System.out.println("COMMIT;");
+        script[0] += "COMMIT;";
+
+        createFileSql(script[0], tableName.name());
+
     }
 
     private static void getColumnName(TypeTable tableName) {
@@ -50,6 +56,18 @@ public class PreprareCommonScript {
                 break;
             default:
                 break;
+        }
+    }
+
+    private static void createFileSql (String script, String fileName) {
+        try {
+            FileWriter fileout = new FileWriter(fileName.concat(".sql"));
+            fileout.write(script);
+            fileout.close();
+
+            System.out.println("Script created correctly!");
+        } catch (IOException e) {
+            System.out.println(e);
         }
     }
 

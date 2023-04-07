@@ -12,6 +12,8 @@ public class PrepareScriptClass {
     * <p> preNotaPratica -> Inserisci la tua nota                                                                 </p> *
     * <p> idNotePratica  -> Inserisci l'id della nota da aggiornare                                               </p> *
     *                                                                                                                  *
+    * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
+    *                                                                                                                  *
     *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_T_PAD_NOTE_PRATICA() {
@@ -25,6 +27,8 @@ public class PrepareScriptClass {
     *                                                                                                                  *
     * <p> preNotaFido -> Inserisci la tua nota                                                                    </p> *
     * <p> idFido      -> Inserisci l'id della nota da aggiornare                                                  </p> *
+    *                                                                                                                  *
+    * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
     *                                                                                                                  *
     *******************************************************************************************************************/
     @Test
