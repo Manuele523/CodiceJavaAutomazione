@@ -43,7 +43,7 @@ public class PrepareScriptClass {
     @Test
     public void prepareScriptSQL_T_PAD_FIDO() {
         mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
-        mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
+        // mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
 
         mapKV.forEach((idNota, nota) -> {
             prepareComuneScript(nota, T_PAD_FIDO, idNota);
