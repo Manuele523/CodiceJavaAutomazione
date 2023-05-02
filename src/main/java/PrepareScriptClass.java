@@ -1,5 +1,9 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 import static Utils.PreprareCommonScript.*;
 import static Utils.PreprareCommonScript.TypeTable.T_PAD_FIDO;
 import static Utils.PreprareCommonScript.TypeTable.T_PAD_NOTE_PRATICA;
@@ -9,7 +13,7 @@ public class PrepareScriptClass {
     /*******************************************************************************************************************
     * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER - T_PAD_NOTE_PRATICA                                         </p> *
     *                                                                                                                  *
-    * <p> preNotaPratica -> Inserisci la tua nota                                                                 </p> *
+    * <p> mapKV          -> Inserisci le tue note                                                                 </p> *
     * <p> idNotePratica  -> Inserisci l'id della nota da aggiornare                                               </p> *
     *                                                                                                                  *
     * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
@@ -17,15 +21,20 @@ public class PrepareScriptClass {
     *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_T_PAD_NOTE_PRATICA() {
-        String preNotaPratica = "INSERISCI_LA_TUA_NOTA";
+        mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
+        // mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
 
-        prepareComuneScript(preNotaPratica, T_PAD_NOTE_PRATICA, (idNotePratica = 1));
+        mapKV.forEach((idNota, nota) -> {
+            prepareComuneScript(nota, T_PAD_NOTE_PRATICA, idNota);
+        });
+
+        createFileSql(String.valueOf(T_PAD_NOTE_PRATICA));
     }
 
     /*******************************************************************************************************************
     * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER - T_PAD_FIDO                                                 </p> *
     *                                                                                                                  *
-    * <p> preNotaFido -> Inserisci la tua nota                                                                    </p> *
+    * <p> mapKV       -> Inserisci le tue note                                                                    </p> *
     * <p> idFido      -> Inserisci l'id della nota da aggiornare                                                  </p> *
     *                                                                                                                  *
     * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
@@ -33,9 +42,14 @@ public class PrepareScriptClass {
     *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_T_PAD_FIDO() {
-        String preNotaFido = "INSERISCI_LA_TUA_NOTA";
+        mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
+        mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
 
-        prepareComuneScript(preNotaFido, T_PAD_FIDO, (idFido = 1));
+        mapKV.forEach((idNota, nota) -> {
+            prepareComuneScript(nota, T_PAD_FIDO, idNota);
+        });
+
+        createFileSql(String.valueOf(T_PAD_FIDO));
     }
 
 }

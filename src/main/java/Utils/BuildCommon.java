@@ -1,7 +1,7 @@
 package Utils;
 
 import lombok.Getter;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.StringEscapeUtils;
 
 public class BuildCommon {
@@ -24,22 +24,21 @@ public class BuildCommon {
     }
 
     public static String beautifyAlcHtml(String commento) {
-        String beautifyHtml = StringUtils.EMPTY;
+        String beautifyHtml = org.apache.commons.lang3.StringUtils.EMPTY;
 
-        if (StringUtils.isNotEmpty(commento)) {
+        if (org.apache.commons.lang3.StringUtils.isNotEmpty(commento)) {
             String unescapeHtml = StringEscapeUtils.unescapeHtml4(commento);
-            unescapeHtml = unescapeHtml.replace("\n", "<br/>")
-                    .replaceAll("\\<span.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\</span.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\<u.*?\\>", "<u>")
-                    .replaceAll("\\</u.*?\\>", "</u>")
-                    .replaceAll("\\<!--.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\<a.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\</a.*?\\>", StringUtils.EMPTY)
+            unescapeHtml = unescapeHtml.replace("\n", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\<span.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\</span.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\<u .*?\\>", "<u>")
+                    .replaceAll("\\<!--.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\<a.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\</a.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replaceAll("\\<div.*?\\>", "<br>")
                     .replaceAll("\\</div.*?\\>", "<br>")
-                    .replaceAll("\\<hr.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\</hr.*?\\>", StringUtils.EMPTY)
+                    .replaceAll("\\<hr.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\</hr.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replaceAll("\\<strong.*?\\>", "<b>")
                     .replace("</strong>", "</b>")
                     .replaceAll("\\<em.*?\\>", "<em>")
@@ -48,17 +47,17 @@ public class BuildCommon {
                     .replaceAll("\\<br.*?\\>", "<br>")
                     .replaceAll("\\<i.*?\\>", "<i>")
                     .replaceAll("\\<b .*?\\>", "<b>")
-                    .replaceAll("\\<font.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\</font.*?\\>", StringUtils.EMPTY)
-                    .replace("<o:p>", StringUtils.EMPTY)
-                    .replace("</o:p>", StringUtils.EMPTY)
-                    .replaceAll("\\<nel.*?\\>", StringUtils.EMPTY)
-                    .replaceAll("\\</nel.*?\\>", StringUtils.EMPTY)
-                    .replace("<nel>", StringUtils.EMPTY)
-                    .replace("</nel>", StringUtils.EMPTY)
+                    .replaceAll("\\<font.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\</font.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replace("<o:p>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replace("</o:p>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\<nel.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replaceAll("\\</nel.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replace("<nel>", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replace("</nel>", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replaceAll("<(?=\\S*@)", "(")
                     .replaceAll("(?<=.it|.com)>", ")")
-                    .replace("\u0000", StringUtils.EMPTY)
+                    .replace("\u0000", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replace("\u00A3", "£")
                     .replace("\u00F2", "ò")
                     .replace("\u00E0", "à")
@@ -67,16 +66,16 @@ public class BuildCommon {
                     .replace("\u00E9", "é")
                     .replace("\u00A7", "§")
                     .replace("\u00B0", "°")
-                    .replace("u0000", StringUtils.EMPTY)
-                    .replace("‎", StringUtils.EMPTY)
+                    .replace("u0000", org.apache.commons.lang3.StringUtils.EMPTY)
+                    .replace("‎", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replace(" ", " ")
                     .replaceAll("&lt", specialTag.LT_TAG.name())
                     .replaceAll("&gt", specialTag.GT_TAG.name())
                     .replaceAll("&amp;", specialTag.COMMERCIAL_TAG.name())
                     .replaceAll("(<(?=\\s))", specialTag.LT_TAG.name())
-                    .replaceAll("(<(?!\\/*("+ StringUtils.join(htmlTags.values(), "|") +")))", specialTag.LT_TAG.name())
+                    .replaceAll("(<(?!\\/*("+ org.apache.commons.lang3.StringUtils.join(htmlTags.values(), "|") +")))", specialTag.LT_TAG.name())
                     .replaceAll("(?<=\\s)>", specialTag.GT_TAG.name())
-                    .replaceAll("(?<!(" + StringUtils.join(htmlTags.values(), "|") + "))>", specialTag.GT_TAG.name())
+                    .replaceAll("(?<!(" + org.apache.commons.lang3.StringUtils.join(htmlTags.values(), "|") + "))>", specialTag.GT_TAG.name())
                     .replaceAll("(&(?!(" + StringUtils.join(tags.values(), "|") + ")))", specialTag.COMMERCIAL_TAG.name())
                     .replace("<br>", "<br/>");
 

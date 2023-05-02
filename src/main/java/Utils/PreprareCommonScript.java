@@ -1,10 +1,12 @@
 package Utils;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class PreprareCommonScript {
@@ -15,9 +17,13 @@ public class PreprareCommonScript {
     }
 
     private static final String segnoUguale = "=", segnoConcatena = " = TIPO ||";
-    private static String campo = StringUtils.EMPTY, query = StringUtils.EMPTY;
+    private static String campo = StringUtils.EMPTY, query = StringUtils.EMPTY, DEFINE_OFF = "SET DEFINE OFF;\n";
+
+    public static String scriptSQL = StringUtils.EMPTY;
 
     public static Integer idNotePratica, idFido;
+
+    public static Map<Integer, String> mapKV = new HashMap<>();
 
     public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE' WHERE ID_NOTA = QUI_METTI_ID;\n",
             queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n";
@@ -25,7 +31,7 @@ public class PreprareCommonScript {
     public static void prepareComuneScript(String nota, TypeTable tableName, Integer id) {
         AtomicReference<Boolean> isFirst = new AtomicReference<>(true);
         String[] results = nota.split("(?<=\\G.{850})");
-        final String[] script = {"SET DEFINE OFF;\n"};
+        final String[] script = {DEFINE_OFF};
 
         getColumnName(tableName);
 
@@ -38,10 +44,11 @@ public class PreprareCommonScript {
 
             isFirst.set(false);
         });
-        script[0] += "COMMIT;";
 
-        createFileSql(script[0], tableName.name());
-
+        if (scriptSQL.contains(DEFINE_OFF)) {
+            script[0] = script[0].replace(DEFINE_OFF, StringUtils.EMPTY);
+        }
+        scriptSQL += script[0] + "\n";
     }
 
     private static void getColumnName(TypeTable tableName) {
@@ -59,10 +66,12 @@ public class PreprareCommonScript {
         }
     }
 
-    private static void createFileSql (String script, String fileName) {
+    public static void createFileSql (String fileName) {
+        scriptSQL += "COMMIT;";
+
         try {
             FileWriter fileout = new FileWriter(fileName.concat(".sql"));
-            fileout.write(script);
+            fileout.write(scriptSQL);
             fileout.close();
 
             System.out.println("Script created correctly!");
