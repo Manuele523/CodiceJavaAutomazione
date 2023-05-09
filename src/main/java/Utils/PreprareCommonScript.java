@@ -2,11 +2,14 @@ package Utils;
 
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class PreprareCommonScript {
@@ -66,8 +69,9 @@ public class PreprareCommonScript {
         }
     }
 
-    public static void createFileSql (String fileName) {
+    public static void createFileSql(String tableName, String numIncident) {
         scriptSQL += "COMMIT;";
+        String fileName = "V01_01_LMBE_APP_".concat(numIncident).concat("_").concat(tableName).concat("_").concat("BONIFICA_NOTE");
 
         try {
             FileWriter fileout = new FileWriter(fileName.concat(".sql"));
@@ -76,7 +80,7 @@ public class PreprareCommonScript {
 
             System.out.println("Script created correctly!");
         } catch (IOException e) {
-            System.out.println(e);
+            System.out.println("An error occurred." + e);
         }
     }
 
