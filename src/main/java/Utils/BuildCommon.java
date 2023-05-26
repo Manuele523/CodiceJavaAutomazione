@@ -55,7 +55,7 @@ public class BuildCommon {
                     .replaceAll("\\</nel.*?\\>", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replace("<nel>", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replace("</nel>", org.apache.commons.lang3.StringUtils.EMPTY)
-                    .replaceAll("<(?=\\S*@)", "(")
+                    .replaceAll("<(?=\\s*@)", "(")
                     .replaceAll("(?<=.it|.com)>", ")")
                     .replace("\u0000", org.apache.commons.lang3.StringUtils.EMPTY)
                     .replace("\u00A3", "£")
