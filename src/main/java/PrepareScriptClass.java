@@ -1,8 +1,7 @@
 import org.junit.Test;
 
-import static Utils.PreprareCommonScript.TypeTable.T_PAD_FIDO;
-import static Utils.PreprareCommonScript.TypeTable.T_PAD_NOTE_PRATICA;
 import static Utils.PreprareCommonScript.*;
+import static Utils.PreprareCommonScript.TypeTable.*;
 
 public class PrepareScriptClass {
 
@@ -50,6 +49,29 @@ public class PrepareScriptClass {
         });
 
         createFileSql(String.valueOf(T_PAD_FIDO), numIncident);
+    }
+
+    /*******************************************************************************************************************
+    * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER - T_PAD_FIDO_ESTESO                                          </p> *
+    *                                                                                                                  *
+    * <p> numIncident    -> Inserisci il numero dell'incident                                                     </p> *
+    * <p> mapKV          -> Inserisci le tue note                                                                 </p> *
+    * <p> idFido         -> Inserisci l'id della nota da aggiornare                                               </p> *
+    *                                                                                                                  *
+    * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
+    *                                                                                                                  *
+     *******************************************************************************************************************/
+    @Test
+    public void prepareScriptSQL_T_PAD_FIDO_ESTESO() {
+        String numIncident = "INSERISCI_NUMERO_INCIDENT";
+        mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
+//        mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
+
+        mapKV.forEach((idNota, nota) -> {
+            prepareComuneScript(nota, T_PAD_FIDO_ESTESO, idNota);
+        });
+
+        createFileSql(String.valueOf(T_PAD_FIDO_ESTESO), numIncident);
     }
 
 }

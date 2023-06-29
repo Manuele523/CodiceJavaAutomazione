@@ -13,7 +13,8 @@ public class PreprareCommonScript {
 
     public enum TypeTable {
         T_PAD_NOTE_PRATICA,
-        T_PAD_FIDO
+        T_PAD_FIDO,
+        T_PAD_FIDO_ESTESO
     }
 
     private static final String segnoUguale = "=", segnoConcatena = " = TIPO ||";
@@ -26,7 +27,8 @@ public class PreprareCommonScript {
     public static Map<Integer, String> mapKV = new HashMap<>();
 
     public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE' WHERE ID_NOTA = QUI_METTI_ID;\n",
-            queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n";
+            queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n",
+            queryFidoEsteso = "UPDATE LMBE_OWN.T_PAD_FIDO_ESTESO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO_ESTESO = QUI_METTI_ID;\n";
 
     public static void prepareComuneScript(String nota, TypeTable tableName, Integer id) {
         AtomicReference<Boolean> isFirst = new AtomicReference<>(true);
