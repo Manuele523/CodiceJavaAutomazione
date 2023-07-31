@@ -23,6 +23,8 @@ public class BuildCommon {
         amp, gt, lt
     }
 
+    public static String ERROR_CHARACTER = "\u001A";
+
     public static String beautifyAlcHtml(String commento) {
         String beautifyHtml = org.apache.commons.lang3.StringUtils.EMPTY;
 

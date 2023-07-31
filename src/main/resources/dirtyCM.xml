@@ -1,0 +1,3389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <infoPDF>
+        <app>LMPR0</app>
+        <template>CreditMemoSintetico.xdp</template>
+        <version>1.0</version>
+        <event>PDF</event>
+        <contenturi>LMPR0/1.0/Template</contenturi>
+    </infoPDF>
+    <infoTemplate>
+        <Lingua>IT</Lingua>
+    </infoTemplate>
+    <SubformLogoColori>
+        <codice_soaLogoCol>01</codice_soaLogoCol>
+    </SubformLogoColori>
+    <AnalisiControparte>
+        <Copertina>
+            <body>
+                <DenominazioneControparte>RIALTO SPA</DenominazioneControparte>
+                <DenominazioneGruppo>PANIZZA GIANCARLO, ERBA DONATELL</DenominazioneGruppo>
+                <ProcessoAffidamento>PROCESSO ORDINARIO</ProcessoAffidamento>
+                <NumeroPratica>01025/01383/2023/00370</NumeroPratica>
+                <TipologiaIstruttoria>ORDINARIA</TipologiaIstruttoria>
+            </body>
+            <footer>
+                <VersioneDocumento>Proponente</VersioneDocumento>
+            </footer>
+        </Copertina>
+        <DatiGeneraliClientiEPratica>
+            <Controparte>
+                <Denominazione>RIALTO SPA</Denominazione>
+                <SNDG>0000000017881089</SNDG>
+                <NSG>0003720440050000</NSG>
+                <SocietaQuotata>NO</SocietaQuotata>
+                <SAG>In Bonis</SAG>
+                <DataCostituzione>23.05.1980</DataCostituzione>
+                <PivaCF>05849840151</PivaCF>
+                <Sede>BRESSO VIA GIAN CARLO CLERICI, 342</Sede>
+                <SettoreESG>LARGE SCALE FOOD RETAILERS</SettoreESG>
+                <Art136>NO</Art136>
+                <PartiCorrelate>NO</PartiCorrelate>
+                <UODiApertura>01383 - AREA CORPORATE LOMBARDIA</UODiApertura>
+                <IsCib>1</IsCib>
+            </Controparte>
+            <Gruppo>
+                <Denominazione>PANIZZA GIANCARLO, ERBA DONATELL</Denominazione>
+                <SNDG>0000000091033652</SNDG>
+                <PlafondDiGruppo>NO</PlafondDiGruppo>
+                <StrutturaPreponente>01383 AREA CORPORATE LOMBARDIA</StrutturaPreponente>
+                <GruppoContrDaAmmCentrale>NO</GruppoContrDaAmmCentrale>
+            </Gruppo>
+            <Gestore>
+                <GestoreRM>U085468 - ELENA - BOLLINI</GestoreRM>
+                <ApplicazioneFacolta/>
+                <TipologiaProposta>PROCESSO ORDINARIO</TipologiaProposta>
+                <NumProposta>01025/01383/2023/00370</NumProposta>
+            </Gestore>
+            <Rating>
+                <RatingInterno>M4 - 17.02.2023 -</RatingInterno>
+                <CRA>01 - Giallo - 15.07.2023</CRA>
+                <EWS>Verde - 27.07.2023</EWS>
+            </Rating>
+            <LineeDiCredito>
+                <InfoSintesiLineeDiCredito>Almeno una Linea di Credito in LT</InfoSintesiLineeDiCredito>
+            </LineeDiCredito>
+            <ObblighiNormativiERischi>
+                <Table>
+                    <Header>Obblighi Normativi e rischi</Header>
+                    <RigaObblighi>
+                        <Obbligo>AML</Obbligo>
+                        <Esito>Non previsto</Esito>
+                        <DataAdempimento>08.02.2023</DataAdempimento>
+                    </RigaObblighi>
+                </Table>
+            </ObblighiNormativiERischi>
+            <LeveragedTransactions>
+                <Title>Leveraged Transaction</Title>
+                <Table>
+                    <Header>Leveraged Transaction</Header>
+                    <RigaLeveragedTransactions>
+                        <CausaleTargatura>S2 - Per superamento indicatore</CausaleTargatura>
+                        <RatioPost>15.46</RatioPost>
+                        <PresenzaFidi>No</PresenzaFidi>
+                    </RigaLeveragedTransactions>
+                </Table>
+                <NoteLeveragedTransactions>
+                    <Titolo>Note Leveraged Transaction</Titolo>
+                    <Testo>TOTAL DEBT E MOL RILEVATI DA CONSOLIDATO DI RIVA AZZURRA (DATI PRESENTI RELATIVI ALLA SOLA
+                        RIALTO) + MARGINE INUTILIZZATO RISCHI PER CASSA A SCADENZA A BT E MLT DI RIALTO
+                    </Testo>
+                </NoteLeveragedTransactions>
+            </LeveragedTransactions>
+            <IndicatoreDOD>
+                <Table>
+                    <Header>INDICATORE DOD (Calcolo della ridotta obbligazione finanziaria, esposti dati riferiti
+                        all'operazione maggiormente onerosa)
+                    </Header>
+                </Table>
+            </IndicatoreDOD>
+            <RedditivitaOperazione/>
+        </DatiGeneraliClientiEPratica>
+        <ExecutiveSummaryProponente>
+            <Titolo>Executive Summary - Proponente</Titolo>
+            <Testo>&amp;lt;p&amp;gt;Rialto Spa è la sub-holding operativa del gruppo attivo nel settore della GDO con
+                l’insegna “Il Gigante”, facente capo alla famiglia Panizza per il tramite della holding di
+                partecipazioni Riva Azzurra Spa che ne detiene il 93,55%, mentre il restante 6,45% è frazionato tra
+                diversi imprenditori che insieme a Giancarlo Panizza diedero avvio all’attività nel 1972.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;
+                &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;L’attuale struttura del gruppo deriva dall’operazione di fusione
+                inversa mediante la quale Rialto Spa, a novembre 2018, ha incorporato l’allora controllante Grandi
+                Magazzini e Supermercati Il Gigante Spa. L’operazione ha completato il processo di razionalizzazione
+                delle varie società del gruppo in atto da alcuni anni e finalizzato alla semplificazione della struttura
+                per ridurre i costi amministrativi e di gestione.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Rialto è presente
+                prevalentemente in Lombardia e Piemonte e marginalmente con 3 PDV in Emilia Romagna con una rete di 60
+                PDV (+1 vs 2021) di cui 18 ipermercati e 42 tra supermercati e superstore (43 PDV sono di proprietà)
+                impiegando 4.629 dipendenti (ex 4.696) e con 7 (+1 vs 2021) stazioni di servizio per il rifornimento di
+                carburante adiacenti ad altrettanti PDV che nel 2022 hanno registrato una crescita del valore delle
+                vendite del 40% (+36mln) sia per la crescita dei prezzi che dei litri erogati. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;
+                &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Importante e sinergica all'attività core è la gestione immobiliare
+                dei beni di proprietà su una superficie lorda di oltre 350.000mq dove sono presenti 350 negozi condotti
+                da operatori terzi (affitti € 15,2mln)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Si
+                rimanda all'overview di gruppo per i commenti sul Gruppo e sul bilancio consolidato redatto dalla
+                holding Riva Azzurra SpA &amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;&amp;lt;i&amp;gt;&amp;lt;u&amp;gt;BILANCIO INDIVIDUALE 2022 readtto secondo i Principi
+                Contabili nazionali certificato da revisore indipendente senza rilievi&amp;lt;/u&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Il
+                Vdp al 12/2022 si attesta a €1.246,7 mln (ex 1.173) per gli effetti inflattivi sui prezzi e nuove
+                aperture. MOL in sensibile contrazione a € 18,7mln (ex 42,1mln) per il repentino e ampio rialzo dei
+                prezzi delle materie prime energetiche (+28mln al lordp di contributi statali per 6,8mln ) e chiusura in
+                perdita per € 11,7mln (ex utile 4,1 mln) dopo ammortamenti per cpl € 33,5mln (ex 34,6mln), posizione
+                fiscale neutra (IMU di 6,2mln e beneficio d'imposta per e 6,3mln), svalutazione della partecipaz per
+                €1,6mln e contributo positivo della gestione finanziaria netta per soli 110mila (ex +954mila) per il
+                rialzo dei tassi.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Sostenuti nell’esercizio investimenti per € 10,7mln
+                (ex 34,1 mln) tra cui completamento immobile di Cernusco S/N con apertura nuovo PDV al01/2022, riscatto
+                contratto di leasing immobiliare, nuovo impianto distributore carburante, apertura di due pet store e
+                distribuito dividendi per € 6,5 mln. ll PN che rappresenta il 21,3% delle fonti ( ex 23,3%) si riduce a
+                € 127,4 mln (ex € 143 mln). Assets totali a € 597,1mln (ex 612,4mln) sono per 55,3% (ex 57,4%) riferiti
+                ad attività immobilizzate (€ 330,4mln). L'attivo corrente di cpl € 266,7mln è composto per lo più dal
+                magazzino per € 118,7mln, crediti comm.li di € 51,5mln &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Le altre
+                fonti di cpl € 469,4mln sono costituite principalmente da: fondi per € 29,5mln, debiti comm.li di €
+                264,9mln (ex 259mln), altri debiti € 28,7mln e debiti finanziari per € 144,1mln (ex € 1561mln) in linea
+                con quanto censito in CR.BI (€ 144mln cassa + € 6,8mln firma).&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;PFN
+                rimane stabilmente negativa a € 79,4mln (ex 78,1mln). Con la forte compressione del margine
+                caratteristico l'indice PFN/MOL subisce un sensibile peggioramento posizionandosi a 4,24x (ex 1,85X)
+                mentre il gearing per la contrazione del PN si attesta a 0,62x (ex 0,55x). &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Cash
+                flow (utile +amm.ti) a € 21,75mln integrato dalla variazione positiva del CCN commerciale di € 8,9mln
+                consentono di coprire principalmente gli investimenti in immobilizzi materiali di cpl € 10,7mln e
+                distribuzioni di dividendi per € 6,5mln..&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;HIGHLIGHTS 2023 &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;L’andamento dell’esercizio 2023 è
+                ancora caratterizzato dalle spinte inflattive che si manifestano sui prezzi dei prodotti destinati alla
+                vendita mentre si registra una decelerazione dei prezzi energetici che dovrebbe portare benefici
+                soprattutto nel secondo semestre dell'anno. Per contrastare e favorire la discesa dell'inflazione le
+                autorità monetarie stanno proseguendo nel trend di rialzo dei tassi con effetto di maggiori oneri sul
+                capitale a prestito. Il Gruppo ha ripreso la politica di investimenti che nel 2022 aveva subito una
+                riduzione per l'andamento negativo dell'esercizio con in previsione CAPEX sull'operativa Rialto di ca €
+                48mln finalizzati principalmente all'approntamento del nuovo centro per la logistica che oltre a
+                migliorare l'efficienza contribuirà ad una riduzione dei costi generali, acquisizione nuova area per la
+                realizzazione di un PDV e acquisizione di un immobile per l'apertura di un nuovo PDV.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Il
+                Gruppo produce dati prospettici completi solo per la società operativa RIALTO che contribuisce per oltre
+                il 90% ai risultati consolidati &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;I
+                ricavi caratteristici (vendite +compensi promozionali fornitori) sono stimati in crescita a € 1.274mln
+                anche per il contributo di una nuova apertura. L’EBITDA viene previsto a € 46,5mln al 3,7% grazie alla
+                riduzione dei costi delle materie prime energetiche e al beneficio per ca € 6,5mln della dismissione del
+                PDV di Bologna (Ebitda al netto dei componenti straordinari pari a € 40mln al 3,1% % in linea con il
+                track record ad eccezione del 2022)). Risultato netto positivo di € 9,4mln dopo
+                ammortamenti/accantonamenti per € 14,5mln, risultato della gestione finanziaria positiva per € 1,7mln,
+                svalutazione della partecipazione per € 0,8mln e assolte imposte per € 2,5mln. Il PN pari a € 129,2mln
+                recepisce l’utile dell’esercizio e la distribuzione di dividendi per € 7,8mln e si attesta al 59,5% del
+                CIN di € 217,1mln (ex 206,6mln). Gli elementi fissi, sulla base delle CAPEX lorde stimate in € 48mln, si
+                attestano a € 347,3mln (ex 329,6mln); il CCN è negativo per € 111,2mln e i fondi netti sono pari a €
+                18,9mln. Le altre fonti sono rappresentate dalla PFN stimata in crescita a € 87,9mln (ex 79,2mln)
+                composta da debiti finanziari per € 145,2mln (ex 143,9mln) di cui v/altri € 1,5mln e disponibilità
+                liquide per € 57,3mln (ex 64,7mln).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;DA AGGIORNARE&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt;
+                LC_M4 (ex LC_M3), calcolato dal Group Rating Desk in data 20/07/2022 sulla base del bilancio consolidato
+                Riva Azzurra Spa al 31/12/2021 con validità 31.12.2023 ed esteso alla controparte in esame. In data
+                17/02/2023 lo stesso ufficio ha effettuato la &amp;lt;i&amp;gt;riconferma&amp;lt;/i&amp;gt; sulla base
+                del ricalcolo del rating della capogruppo sulla base del nuovo modello, del current trading e fct 2022
+                con scadenza anticipata al 31.08.2023.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;i&amp;gt;Operatività
+                con Intesa Sanpaolo&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Relazione storica con ISP,
+                regolare e corretta con rientro puntuale delle operazioni in amm.to&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;La
+                CR al 05.2023 evidenzia un accordato di cpl € 209,4 mln (ex 250 mln), di cui € 79,9 (ex 89,9mln) mln
+                cassa a b.t., € 112,7mln cassa a mlt e € 16,8mln (inv) crediti di firma, con utilizzi di € 167,1 mln (di
+                cui € 53,2 mln cassa a b.t., € 107,8mln cassa a mlt al 90% garantiti da ipoteca, € 6,6 mln crediti di
+                firma).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;QDI del 16% sugli
+                accordati (€ 32,8 mln) e al 13% sugli utilizzi per € 21,9mln di cui € 4,3mln per residui Cassa a MLT
+                (1,1mln in scadenza il 10/2023), €17mln utilizzo Apc ipotecaria in cc e € 0,6mln impegni di firma.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;Con riferimento all’APC ipotecaria si segnala l’avvenuto rispetto della clausola di
+                &amp;lt;i&amp;gt;clean down&amp;lt;/i&amp;gt; e del covenant relativo alla canalizzazione di flussi per
+                incassi commerciali di almeno € 360 mln su base annua.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;La segnalazione CR in capo al Gr EC evidenzia un accordato di cpl € 235,9 mln (ex 269,8
+                mln), a fronte di utilizzi per € 193,5 mln (ex 225,9 mln) pari al 82% (ex 84%) del monte fidi,
+                posizionati sulla cassa a bt per € 102,9mln (ex 58,6mln) , sulla cassa a mlt per € 116,2 mln (ex
+                194,4mln)e sulla firma per € 16,8 mln (inv). QDI del gruppo ISP è pari al 15% degli accordati e al 13%
+                degli utilizzi&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;i&amp;gt;&amp;lt;u&amp;gt;Operatività
+                commerciale&amp;lt;/u&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;La controparte
+                riserva a ISP una quota di operatività più che proporzionale rispetto alla nostra QDI pari a € 717,1 mln
+                nel 2022, di cui € 171,2mln bonifici, € 388 mln incassi POS, € 158mln versamenti contante ed € 0,9mln di
+                bonifici esteri&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;La
+                reddittività al 12/2022 di controparte che rappresenta il 95% di quella del Gruppo evidenzia le seguenti
+                grandezze:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;-PON in crescita del 93% a € 358mila (ex 185mila) grazie
+                all'aumento sia del margine di interesse (si evidenzia il repricing della CDF sull'APC ipotecaria
+                passata da 0,08% a 0,32% annuo) che di servizi (commissioni acquiring)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;-
+                il valore di RAROC e di EVA rispettivamente del 30% e positiva di e 117K-&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Il
+                nostro appoggio creditizio alla ctp è pari a € 37,8mln comprendente anche € 5mln di plafond debitori
+                ceduti fact pro-soluto è rappresentato per quasi ill’80% da operazioni per cassa a MLT garantite da
+                ipoteca di 1° in corrente per quanto riguarda le operazioni amortizing (cap residuo € 4,3mln di cui e
+                1,142 mln in scadenza il 10.2023) e con il rispetto degli obblighi contrattuali (clean down due volte
+                l’anno e canalizzazione di flussi commerciali per almeno € 360mln) per l’APC ipotecaria in conto
+                corrente di € 25mln con scadenza 02/2024)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Nell'ambito della revisione
+                annuale del Gruppo Economico, si propone il rinnovo delle LDC a sostegno esigenze di working capital
+                (APC in cc di € 1,5mln a supporto anche del servizio cash-pooling), €2mln per impegni di firma e plafond
+                fact deb ceduto) con data di revisione interna al 07/2024. &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+            </Testo>
+        </ExecutiveSummaryProponente>
+        <ExecutiveSummaryAnalista/>
+        <ExecutiveSummaryDeliberante/>
+        <CommentoPropostaProponente>
+            <Titolo>Commento alla proposta - Proponente</Titolo>
+            <Testo>&amp;lt;p&amp;gt;Il nostro appoggio creditizio pari a € 41,3mln comprendente anche € 5mln di plafond
+                debitori ceduti fact pro-soluti e € 0,5mln di Altri Rischi, è rappresentato per quasi ill’80% da
+                operazioni per cassa a MLT garantite da ipoteca di 1° in corrente per quanto riguarda le operazioni
+                amortizing (cap residuo € 4,3mln di € 1,1mln in scadenza il 10/2023) e con il rispetto degli obblighi
+                contrattuali (clean down due volte l’anno e canalizzazione di flussi commerciali per almeno € 360mln)
+                per l’APC ipotecaria in conto corrente di € 25mln con scadenza 02/2024)&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Nell'ambito
+                della revisione annuale del Gruppo Economico, si propone il rinnovo delle LDC a sostegno esigenze di
+                working capital (APC in cc di € 1,5mln, €2mln per impegni di firma e plafond fact deb ceduto) con data
+                di revisione interna al 07/2024 supportato dal buon andamento con ritorno alla profittabilità
+                dell'esercizio in corso &amp;lt;/p&amp;gt;
+            </Testo>
+        </CommentoPropostaProponente>
+        <CommentoPropostaAnalista/>
+        <CommentoPropostaDeliberante/>
+        <ConsiderazioniSintesiProponente>
+            <Titolo>Considerazioni di sintesi - Proponente</Titolo>
+            <Testo>&amp;lt;p&amp;gt;Il gruppo, riconducibile alla famiglia Panizza, è uno dei principali operatori della
+                GDO del Nord Italia, con specializzazione nei prodotti alimentari freschi e freschissimi.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Dopo
+                un 2020 particolarmente favorevole per la controparte grazie alla localizzazione dei PDV in prossimità
+                dei centri abitati stante le restrizioni alla mobilità imposte dalle restrizioni per contrastate il
+                diffondersi della pandemia di COVID-19,un 2021 caratterizzato da un progressivo ritorno alla mobilità
+                con la caduta delle ultime restrizioni che hanno portato ad una crescita della spinta promozionale da
+                parte di tutto il settore per mantenere la clientela acquisita durante il periodo di lockdown e
+                dall'inaspettato avvio del trend inflazionistico con crescita dei costi delle materie prime e dei
+                trasporti, il 2022 complice anche lo scoppio delle guerra in Ucraina nel mese di febbraio, ha provocato
+                l'accelerazione del processo già in atto di rialzo dei prezzi delle materie prime energetiche su livelli
+                esponenziali mettendo in difficoltà i settori particolarmente energivori.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;L'incremento
+                dei costi delle materie prime traslati sui prezzi di vendita solo a partire dal secondo semestre e
+                soprattutto l'incremento esponenziale dei costi energetici calmierati solo marginalmente dagli
+                interventi statali, hanno determinato il peggioramento dell'andamento economico con contrazione del MOL
+                e chiusura in perdita.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sulla base del fct 2023 confortato dai primi
+                highlights, l'esercizio in corso segna un ritorno in equilibrio della gestione economica favorito anche
+                dalla riduzione dei prezzi energetici pur in un contesto macroeconomico di perdita di potere d'acquisto
+                dei salari e quindi delle propensioni d'acquisto&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Considerato quanto
+                sopra e vista la regolarità ed elasticità dell'utilizzo degli accordati supportati da più che adeguata
+                canalizzazione di flussi commerciali, le garanzie ipotecarie a presidio degli interventi di cassa a MLT
+                di cui quelli amortizing in regolare rimborso, si propone il rinnovo con data di revisione interna
+                anticipata al 07/2024 &amp;lt;/p&amp;gt;
+            </Testo>
+        </ConsiderazioniSintesiProponente>
+        <ConsiderazioniSintesiAnalista/>
+        <ConsiderazioniSintesiDeliberante/>
+        <DifficoltaFinanziaria>
+            <Parere>
+                <Titolo>Considerazioni di sintesi</Titolo>
+                <Testo>Ancora nessun commento da mostrare</Testo>
+            </Parere>
+            <ValutazioneSinteticaDiffFinanziariaCtpRischiose>Revisione alla pari
+            </ValutazioneSinteticaDiffFinanziariaCtpRischiose>
+            <NotaValutazioneDettaglioDiffFinanziariaCtpRischiose>Non si ravvedono elementi di criticità in relazione
+                alla continuità aziendale anche sulla base dei buoni dati previsionali per l'esercizio in corso
+            </NotaValutazioneDettaglioDiffFinanziariaCtpRischiose>
+            <MotivazioneProponente>
+                <ValutazioneSinteticaDiffFinanziariaCtpRischiose>Revisione alla pari
+                </ValutazioneSinteticaDiffFinanziariaCtpRischiose>
+                <NotaValutazioneDettaglioDiffFinanziariaCtpRischiose>Non si ravvedono elementi di criticità in relazione
+                    alla continuità aziendale anche sulla base dei buoni dati previsionali per l'esercizio in corso
+                </NotaValutazioneDettaglioDiffFinanziariaCtpRischiose>
+            </MotivazioneProponente>
+        </DifficoltaFinanziaria>
+        <AssettoCreditizioProposta>
+            <DataAggiornamento>08.02.2023</DataAggiornamento>
+            <DataRevisioneInEssere>31.12.2022</DataRevisioneInEssere>
+            <DataRevisioneInProposta>31.12.2023</DataRevisioneInProposta>
+            <DataRevisioneInDelibera/>
+            <FaseRevisione>IN PROPOSTA</FaseRevisione>
+            <TotaliFido>
+                <AggregazioneDati>Controparte su banca</AggregazioneDati>
+                <ListaTabTotaliFido>
+                    <Fase>IN ESSERE</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Utilizzato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>39.896</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>26.626</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>30.364</Text>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+                <ListaTabTotaliFido>
+                    <Fase>VARIAZIONE</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value/>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>0</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>0</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text/>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+                <ListaTabTotaliFido>
+                    <Fase>IN PROPOSTA</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value/>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>39.896</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>30.364</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text/>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+            </TotaliFido>
+            <TotaliFido>
+                <AggregazioneDati>Gruppo economico su gruppo bancario</AggregazioneDati>
+                <ListaTabTotaliFido>
+                    <Fase>IN ESSERE</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Utilizzato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>41.314</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>9.409</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>33.314</Text>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+                <ListaTabTotaliFido>
+                    <Fase>VARIAZIONE</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value/>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>500</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>491</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text/>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+                <ListaTabTotaliFido>
+                    <Fase>IN PROPOSTA</Fase>
+                    <TabTotaliFido>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Accordato</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>RWA</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value/>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>41.814</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>33.805</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text/>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabTotaliFido>
+                </ListaTabTotaliFido>
+            </TotaliFido>
+            <Fidi>
+                <TabellaFidi>
+                    <Description>Variazione calcolata rispetto all’accordato in essere</Description>
+                    <Input>
+                        <Table>
+                            <Headline>
+                                <Label>Macrocategoria</Label>
+                                <Column>
+                                    <Value>Accordato In Essere</Value>
+                                    <Color/>
+                                </Column>
+                                <Column>
+                                    <Value>Accordato In Proposta</Value>
+                                    <Color/>
+                                </Column>
+                                <Column>
+                                    <Value>Utilizzato</Value>
+                                    <Color/>
+                                </Column>
+                            </Headline>
+                            <ChartValues>
+                                <Label>Cassa BT</Label>
+                                <Column>
+                                    <Amount>1500</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>1500.00</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Cassa MLT</Label>
+                                <Column>
+                                    <Amount>30885.714</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>30885.714</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>24786.37</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Debitori pro-soluto</Label>
+                                <Column>
+                                    <Amount>5000</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5000.00</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>1183.438</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Firma</Label>
+                                <Column>
+                                    <Amount>2010</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>2010.00</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>655.893</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Rischio di sostituzione</Label>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Rischi indiretti extra Gruppo</Label>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Altri Rischi</Label>
+                                <Column>
+                                    <Amount>500</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>500.00</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Rischio di Consegna</Label>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                        </Table>
+                    </Input>
+                </TabellaFidi>
+            </Fidi>
+        </AssettoCreditizioProposta>
+        <BilanciEBusinessPlan>
+            <BilancioControparteAnnuale>
+                <TipoBilancio>Bilancio individuale</TipoBilancio>
+                <StrutturaBilancio>Struttura: 2 Commerciale</StrutturaBilancio>
+                <ContoEconomico>
+                    <Head>Conto Economico</Head>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Voci di conto economico</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                        <Value>% sui ricavi</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                        <Value>% sui ricavi</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Delta annuale</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Ricavi netti</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>1172642.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>1239499.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>5.70</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Valore della produzione</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>1172981.00</Amount>
+                                        <Amount>100.03</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>1246706.00</Amount>
+                                        <Amount>100.58</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>6.29</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Acquisti netti</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>851970.00</Amount>
+                                        <Amount>72.65</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>916330.00</Amount>
+                                        <Amount>73.93</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>7.55</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Costi per servizi / Beni di terzi</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>129677.00</Amount>
+                                        <Amount>11.06</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>161913.00</Amount>
+                                        <Amount>13.06</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>24.86</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Costo del lavoro</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>149182.00</Amount>
+                                        <Amount>12.72</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>149723.00</Amount>
+                                        <Amount>12.08</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.36</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Margine operativo lordo</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>42152.00</Amount>
+                                        <Amount>3.59</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>18740.00</Amount>
+                                        <Amount>1.51</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-55.54</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Amm.ti immobilizzi materiali</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>31000.00</Amount>
+                                        <Amount>2.64</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>30312.00</Amount>
+                                        <Amount>2.45</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-2.22</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Amm.ti immobilizzi immateriali</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>3655.00</Amount>
+                                        <Amount>0.31</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>3205.00</Amount>
+                                        <Amount>0.26</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-12.31</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Sval./accanton. Operativi</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>570.00</Amount>
+                                        <Amount>0.05</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>931.00</Amount>
+                                        <Amount>0.08</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>63.33</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Margine operativo netto</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>6927.00</Amount>
+                                        <Amount>0.59</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-15708.00</Amount>
+                                        <Amount>-1.27</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-326.76</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Proventi/oneri diversi</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>4889.00</Amount>
+                                        <Amount>0.42</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>3611.00</Amount>
+                                        <Amount>0.29</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-26.14</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Proventi/Perdite finanziari</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>3056.00</Amount>
+                                        <Amount>0.26</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2806.00</Amount>
+                                        <Amount>0.23</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-8.18</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Oneri finanziari</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>2102.00</Amount>
+                                        <Amount>0.18</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2696.00</Amount>
+                                        <Amount>0.22</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>28.26</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Utile (perdita) corrente</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>12770.00</Amount>
+                                        <Amount>1.09</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-11987.00</Amount>
+                                        <Amount>-0.97</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-193.87</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Saldo partite straordinarie</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-923.00</Amount>
+                                        <Amount>-0.08</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>156.00</Amount>
+                                        <Amount>0.01</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>116.90</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Imposte</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>7721.00</Amount>
+                                        <Amount>0.66</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-69.00</Amount>
+                                        <Amount>-0.01</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-100.89</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Utile (perdita) di esercizio</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>4126.00</Amount>
+                                        <Amount>0.35</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-11762.00</Amount>
+                                        <Amount>-0.95</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-385.07</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                </ContoEconomico>
+                <StatoPatrimoniale>
+                    <Head>Stato Patrimoniale</Head>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Attivo</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                        <Value>% su tot. attivo</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                        <Value>% su tot. attivo</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Delta annuale</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Immobilizzi Tecnici</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>332739.00</Amount>
+                                        <Amount>54.33</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>312892.00</Amount>
+                                        <Amount>52.40</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-5.96</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Immobilizzi Finanziari</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>5100.00</Amount>
+                                        <Amount>0.83</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>6082.00</Amount>
+                                        <Amount>1.02</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>19.25</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Partecipazioni</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>3768.00</Amount>
+                                        <Amount>0.62</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2121.00</Amount>
+                                        <Amount>0.36</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-43.71</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti Finanziari vs terzi</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti Finanziari infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Immobilizzi immateriali</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>14081.00</Amount>
+                                        <Amount>2.30</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>11464.00</Amount>
+                                        <Amount>1.92</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-18.59</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Avviamento</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>5453.00</Amount>
+                                        <Amount>0.89</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>4691.00</Amount>
+                                        <Amount>0.79</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-13.97</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Attività realizzabili</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>136657.00</Amount>
+                                        <Amount>22.31</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>150402.00</Amount>
+                                        <Amount>25.19</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>10.06</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Magazzino</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>113753.00</Amount>
+                                        <Amount>18.57</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>118720.00</Amount>
+                                        <Amount>19.88</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>4.37</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Anticipi a Fornitori</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Liquidità e crediti</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>123863.00</Amount>
+                                        <Amount>20.22</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>116287.00</Amount>
+                                        <Amount>19.47</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-6.12</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti commerciali vs terzi</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>45602.00</Amount>
+                                        <Amount>7.45</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>51083.00</Amount>
+                                        <Amount>8.55</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>12.02</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti commerciali infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>439.00</Amount>
+                                        <Amount>0.07</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>464.00</Amount>
+                                        <Amount>0.08</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>5.69</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti Finanziari vs terzi</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Crediti Finanziari infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>ATTIVO</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>612440.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>597127.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-2.50</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Passivo</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                        <Value>% su tot. passivo</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                        <Value>% su tot. passivo</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Delta annuale</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Patrimonio netto</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>143036.00</Amount>
+                                        <Amount>23.36</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>127382.00</Amount>
+                                        <Amount>21.33</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-10.94</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Debiti consolidati</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>120596.00</Amount>
+                                        <Amount>19.69</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>123511.00</Amount>
+                                        <Amount>20.68</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2.42</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Fondi accantonati oltre es</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>27831.00</Amount>
+                                        <Amount>4.54</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>29477.00</Amount>
+                                        <Amount>4.94</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>5.91</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Debiti a breve</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>348808.00</Amount>
+                                        <Amount>56.95</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>346234.00</Amount>
+                                        <Amount>57.98</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-0.74</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Debiti commerciali vs terzi</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>258700.00</Amount>
+                                        <Amount>42.24</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>264644.00</Amount>
+                                        <Amount>44.32</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2.30</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Debiti commerciali infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>294.00</Amount>
+                                        <Amount>0.05</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>314.00</Amount>
+                                        <Amount>0.05</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>6.80</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui Anticipi da Clienti</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0</Amount>
+                                        <Amount>0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PASSIVO</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>612440.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>597127.00</Amount>
+                                        <Amount>100.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-2.50</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                </StatoPatrimoniale>
+                <PFN>
+                    <Head>PFN</Head>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Voci di PFN</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Disponibilità liquide</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>77822.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>64740.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Titoli</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui titoli prontamente liquidabili</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui derivati attivi correnti</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Tot attività fin. (A)</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>77822.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>64740.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Tot passività fin. di MLT</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>90418.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>91576.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui vs banche</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>90418.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>91576.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui obbligazioni</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui leasing</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui derivati</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui debiti infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>35.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui finanziamenti soci</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui altri debiti finanziari</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>-35.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Tot passività fin. di BT</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>65557.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>52556.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui vs banche</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>61614.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>51639.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui obbligazioni</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui leasing</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui derivati</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui debiti finanziari infragruppo</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>3943.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>917.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui finanziamenti soci</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>di cui altri debiti finanziari</Label>
+                                    <Label>1</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Tot passività fin. (B)</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>155975.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>144132.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PFN (A-B)</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>-78153.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-79392.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                </PFN>
+                <RendicontoFinanziario>
+                    <Head>Cash flow</Head>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Voci di rendiconto finanziario</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                        <Value>%</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Cash Flow</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>38781.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>21755.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione altri fondi</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-224.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>1646.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione Rimanenze</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-14190.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-4967.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione crediti a breve termine</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>6093.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-14284.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione debiti a breve termine</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>21176.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>10427.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione debiti a M/L termine</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>30.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>111.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Cash Flow Operativo</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>51666.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>14688.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Investimenti Netti e altre variazioni immob</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-37621.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-12035.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazioni Patrimonio netto (al lordo dei dividendi)</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-7396.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-3892.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Dividendi</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>FREE CASH FLOW</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>6649.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-1239.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazioni mutui e finanziamenti a Mlt</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>14176.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>1158.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazioni Banche e Finanziamenti a breve</Label>
+                                    <Label>0</Label>
+                                    <Column>
+                                        <Amount>-9209.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-13001.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Variazione LIQUIDITA'</Label>
+                                    <Label>G</Label>
+                                    <Column>
+                                        <Amount>11616.00</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-13082.00</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                </RendicontoFinanziario>
+                <IndiciDiBilancio>
+                    <TabellaAnnuale>
+                        <DataAggiornamento>26.07.2023</DataAggiornamento>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Label>Voci di indici di bilancio</Label>
+                                    <Column>
+                                        <Value>Dicembre 2021</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Dicembre 2022</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Label>Acid test</Label>
+                                    <Column>
+                                        <Amount>0.42</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.43</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Capitale circolante netto</Label>
+                                    <Column>
+                                        <Amount>-88288.0</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-79545.0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Leva finanziaria</Label>
+                                    <Column>
+                                        <Amount>4.28</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>4.69</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Liq. e cred. a breve / Deb. a breve</Label>
+                                    <Column>
+                                        <Amount>0.36</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.34</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PFN / Patr. Netto</Label>
+                                    <Column>
+                                        <Amount>0.55</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>0.62</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>Ricavi netti / Attivo</Label>
+                                    <Column>
+                                        <Amount>1.91</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>2.08</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>ROA (%)</Label>
+                                    <Column>
+                                        <Amount>2.09</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-90003.0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>ROE (%)</Label>
+                                    <Column>
+                                        <Amount>2.88</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-90003.0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>ROS (%)</Label>
+                                    <Column>
+                                        <Amount>1.09</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>-90003.0</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>GG CLIENTI</Label>
+                                    <Column>
+                                        <Amount>14.13</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>14.97</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>GG FORNITORI</Label>
+                                    <Column>
+                                        <Amount>94.98</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>88.46</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>GG MAGAZZINO</Label>
+                                    <Column>
+                                        <Amount>34.92</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>34.48</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>MOL / Oneri Fin. Lordi</Label>
+                                    <Column>
+                                        <Amount>20.05</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>6.95</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PFL / MOL</Label>
+                                    <Column>
+                                        <Amount>3.7</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>7.69</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PFN / Cash flow operativo</Label>
+                                    <Column>
+                                        <Amount>1.51</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>5.41</Amount>
+                                    </Column>
+                                </ChartValues>
+                                <ChartValues>
+                                    <Label>PFN / MOL</Label>
+                                    <Column>
+                                        <Amount>1.85</Amount>
+                                    </Column>
+                                    <Column>
+                                        <Amount>4.24</Amount>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </TabellaAnnuale>
+                </IndiciDiBilancio>
+            </BilancioControparteAnnuale>
+            <BilancioControparteInfrannuale/>
+        </BilanciEBusinessPlan>
+        <IndicatoriRischio>
+            <TabellaRatingInterno>
+                <Input>
+                    <Table>
+                        <Headline>
+                            <Label>Rating Attuale</Label>
+                            <Column>
+                                <Value>Rating precedente</Value>
+                            </Column>
+                            <Column>
+                                <Value>PD</Value>
+                            </Column>
+                            <Column>
+                                <Value>Data attribuzione rating</Value>
+                            </Column>
+                            <Column>
+                                <Value>Data scadenza</Value>
+                            </Column>
+                            <Column>
+                                <Value>Bilancio</Value>
+                            </Column>
+                            <Column>
+                                <Value>Influenza Capogruppo</Value>
+                            </Column>
+                            <Column>
+                                <Value>Rating accentrato</Value>
+                            </Column>
+                        </Headline>
+                        <Headline>
+                            <Label>null</Label>
+                            <Column>
+                                <Value>M4</Value>
+                            </Column>
+                            <Column>
+                                <Value>ND</Value>
+                            </Column>
+                            <Column>
+                                <Value>16.02.2023</Value>
+                            </Column>
+                            <Column>
+                                <Value>31.12.2023</Value>
+                            </Column>
+                            <Column>
+                                <Value>D’esercizio</Value>
+                            </Column>
+                            <Column>
+                                <Value>forte</Value>
+                            </Column>
+                            <Column>
+                                <Value>Accentrato</Value>
+                            </Column>
+                        </Headline>
+                    </Table>
+                </Input>
+            </TabellaRatingInterno>
+            <LineChartRatingInterno>
+                <LineChart>
+                    <Input>
+                        <Table>
+                            <Headline>
+                                <Column>
+                                    <Value>Giu 2018</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Lug</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ago</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Set</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ott</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Nov</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Dic</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Gen</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Feb</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mar</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Apr</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mag</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Giu 2019</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Lug</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ago</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Set</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ott</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Nov</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Dic</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Gen</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Feb</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mar</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Apr</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mag</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Giu 2020</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Lug</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ago</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Set</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ott</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Nov</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Dic</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Gen</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Feb</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mar</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Apr</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mag</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Giu 2021</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Lug</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ago</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Set</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ott</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Nov</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Dic</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Gen</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Feb</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mar</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Apr</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mag</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Giu 2022</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Lug</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ago</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Set</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Ott</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Nov</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Dic</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Gen</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Feb</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mar</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Apr</Value>
+                                </Column>
+                                <Column>
+                                    <Value>Mag 2023</Value>
+                                </Column>
+                            </Headline>
+                            <ChartValues>
+                                <Label>Rating interno</Label>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>5</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>7</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>6</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                            <ChartValues>
+                                <Label>Rating massivo</Label>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                                <Column>
+                                    <Amount>0</Amount>
+                                </Column>
+                            </ChartValues>
+                        </Table>
+                    </Input>
+                </LineChart>
+            </LineChartRatingInterno>
+            <TabellaEWS>
+                <DataAggiornamento>31.07.2023</DataAggiornamento>
+                <Description>EWS</Description>
+                <Input>
+                    <Table>
+                        <Headline>
+                            <Column>
+                                <Value>EWS</Value>
+                                <Value>Verde</Value>
+                            </Column>
+                            <Column>
+                                <Value>Decorrenza</Value>
+                                <Value>21.07.2023</Value>
+                            </Column>
+                            <Column>
+                                <Value>Override</Value>
+                                <Value>No</Value>
+                            </Column>
+                        </Headline>
+                    </Table>
+                </Input>
+            </TabellaEWS>
+            <CommentoIndicatoriRischio>
+                <Titolo>Commento indicatori di rischio</Titolo>
+                <Testo>&amp;lt;p&amp;gt;Sulla base del nuovo &amp;lt;i&amp;gt;modell change corporate, &amp;lt;/i&amp;gt;il
+                    rating della controparte viene calcolato&amp;lt;i&amp;gt; i&amp;lt;/i&amp;gt;ndividualemnte
+                    recependo &amp;lt;i&amp;gt;la strong connneciton &amp;lt;/i&amp;gt;con la holding capogruppo
+                    consolidante Riva Azzurra.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Il rating della holding è stato oggetto
+                    di attribuzione in modalità accentrata da Rating Desk_Large Corporate in data 25/07/2022 con
+                    scadenza 31.07.2024 sulla base del bilancio consolidato Riva Azzurra Spa al 31/12/2022.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Di
+                    seguito un estratto dell'analisi&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;"....Eu 1,2B (+5,9% vs. 2021). I
+                    margini si evidenziano in decisa contrazione (Ebitda Eu 14,8M, -61% vs. 2021) quasi esclusivamente
+                    per il notevole incremento dei costi dell'energia che il gruppo non ha potuto trasferire sui prezzi
+                    di vendita per l'accentuata concorrenzialità nei mercati di riferimento. Buon assetto strutturale
+                    con ratio PFN/Equity pari a 1,4x a fine 2022, a fronte di elevato indebitamento finanziario (lordo
+                    Eu 182M, netto Eu 116,5M), con PFN/Ebitda pari a 7,9x (ex 3,1x).Rating assessment su bilancio
+                    consolidato 2022 e BP 2023/2027 Rialto SpA (ed indicazione delle principali voci di bilancio anche a
+                    livello consolidato).Si ritiene adeguato collocamento in area 5 - Medium Low Standing, con conferma
+                    del rating LC_M4 (in linea con output model) anche in considerazione: i) della buona intonazione
+                    delle previsioni formulate che tengono a loro volta conto del contenimento dei costi energetici
+                    rispetto al picco registrato nel 2022; ii) dellimpatto finanziario / rischio execution dei notevoli
+                    investimenti programmati per il biennio in corso e per gli esercizi successivi.Rating con validità
+                    massima 31/07/2024. La struttura di relazione è tenuta a richiederne l'aggiornamento anticipato in
+                    caso di operazioni straordinarie.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+                </Testo>
+            </CommentoIndicatoriRischio>
+        </IndicatoriRischio>
+        <Proposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-017</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>0001</Codice>
+                    <Descrizione>FIDO DI CAT. 1</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>1.500.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>1.500.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>0</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>-</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>A Revoca</Scadenza>
+                    <ScadenzaInProposta>A Revoca</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <NoteDiFido>
+                    <Testo>linea precedentemente evidenziata su ndg 3161816141000 Grandi Magazzini e Supermercati il
+                        Gigante SpA, società fusa per incorporazione in RIALTO SPA con decorrenza 01.12.2018
+                    </Testo>
+                </NoteDiFido>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0002 APERCREDITO</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>1.500.000 EUR</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>1.500.000 EUR</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0023 L.C. IMP. FIRMA FIN.</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0040 Pref. mutui</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0120 Pref. mutui contr. stip.</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0140 Fidejuss. a fav. acq. immobili</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>0 EUR</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0165 L.C. IMPEGNI FIRMA COMM</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0185 L.C. IMP. FIRMA CONTR.</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <VincoliFormaTecnica>
+                    <FormaTecnica>0190 L.C. DEPOS. CAUZIONALI</FormaTecnica>
+                    <ImportoDurataInEssere>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInEssere>
+                    <ImportoDurataInProposta>
+                        <ImportoDivisa>1.500.000 EUR - 18 mesi</ImportoDivisa>
+                    </ImportoDurataInProposta>
+                    <ImportoDurataInDelibera/>
+                </VincoliFormaTecnica>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <InformazioniGenerali>
+                    <TipologiaFido>CONTINUATIVO</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagAllocazioneDinamica>NO</FlagAllocazioneDinamica>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>true</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-018</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>0270</Codice>
+                    <Descrizione>APERTURA DI CREDITO IPOTECARIA IN CONTO CORRENTE NON CONSUMATORI</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>25.000.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>25.000.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>18.900.656</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>SI</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>28.02.2024</Scadenza>
+                    <ScadenzaInProposta>28.02.2024</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <NoteDiFido>
+                    <Testo>linea precedentemente evidenziata su ndg 3161816141000 Grandi Magazzini e Supermercati il
+                        Gigante SpA, società fusa per incorporazione in RIALTO SPA con decorrenza 01.12.2018
+                        CARATTERISTICHE: Clausola di clean down almeno due volte l'anno (contrattualizzata con i
+                        seguenti periodi di verifica: 25/09 e 31/12) Ldc condizionata alla domiciliazione sulle nostre
+                        casse di flussi per incassi commerciali di Gruppo pari ad almeno EUR 360 mln su base annua
+                        (verifica con periodicità annuale).GLA 18.155 Mq - VPM EUR 33,1 mln - LTV 75%
+                    </Testo>
+                </NoteDiFido>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Flag M/D</Nome>
+                        <Esito>non in forborne (rinegoziazione commerciale)</Esito>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>SIPF</Nome>
+                        <Esito>NO</Esito>
+                        <Data/>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Leveraged Transaction</Nome>
+                        <Esito>S2</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <TabGaranzieSpecifiche>
+                    <StatoProgressivo>
+                        <DettaglioStato>In essere</DettaglioStato>
+                        <Progressivo>8513134</Progressivo>
+                    </StatoProgressivo>
+                    <Stato>In essere</Stato>
+                    <FormaTecnica>I1 Ipoteca di credito fondiario</FormaTecnica>
+                    <NominativoGarante>RIALTO SPA</NominativoGarante>
+                    <Valore>
+                        <ImportoEuro>33.146.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </Valore>
+                    <ValoreInProposta>
+                        <ImportoEuro>33.146.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </ValoreInProposta>
+                    <Validita>REVOCA</Validita>
+                    <ValiditaInProposta>REVOCA</ValiditaInProposta>
+                </TabGaranzieSpecifiche>
+                <InformazioniGenerali>
+                    <TipologiaFido>TRANSITORIO</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagAllocazioneDinamica>NO</FlagAllocazioneDinamica>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+                <TabLeveragedTransactions>
+                    <LeveragedTransactions>
+                        <Input>
+                            <Table>
+                                <Headline>
+                                    <Column>
+                                        <Value>Fido targato leveraged</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Causali esclusione/deflag in proposta</Value>
+                                    </Column>
+                                    <Column>
+                                        <Value>Causali esclusione/deflag in analisi</Value>
+                                    </Column>
+                                </Headline>
+                                <ChartValues>
+                                    <Column>
+                                        <Text>SI</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>-</Text>
+                                    </Column>
+                                    <Column>
+                                        <Text>-</Text>
+                                    </Column>
+                                </ChartValues>
+                            </Table>
+                        </Input>
+                    </LeveragedTransactions>
+                </TabLeveragedTransactions>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-019</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>0083</Codice>
+                    <Descrizione>Viacard</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>10.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>10.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>0</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>-</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>Indeterminata</Scadenza>
+                    <ScadenzaInProposta>Indeterminata</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <InformazioniGenerali>
+                    <TipologiaFido>ISOLATA</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagAllocazioneDinamica>NO</FlagAllocazioneDinamica>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-020</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>0165</Codice>
+                    <Descrizione>L.C. IMPEGNI FIRMA COMM</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>2.000.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>2.000.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>655.893</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>-</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>A Revoca</Scadenza>
+                    <ScadenzaInProposta>A Revoca</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <NoteDiFido>
+                    <Testo>linea precedentemente evidenziata su ndg 3161816141000 Grandi Magazzini e Supermercati il
+                        Gigante SpA, società fusa per incorporazione in RIALTO SPA con decorrenza 01.12.2018
+                    </Testo>
+                </NoteDiFido>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <InformazioniGenerali>
+                    <TipologiaFido>CONTINUATIVO</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagAllocazioneDinamica>NO</FlagAllocazioneDinamica>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-024</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>3101</Codice>
+                    <Descrizione>DEBITORE PRO SOLUTO</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>5.000.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>5.000.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>1.183.438</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>-</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>A Revoca</Scadenza>
+                    <ScadenzaInProposta>A Revoca</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <NoteDiFido>
+                    <Testo>MIGRAZIONE FACT</Testo>
+                </NoteDiFido>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <DatiFidoFactoring>
+                    <DataUltimaDelibera>21.01.2022</DataUltimaDelibera>
+                    <TabDatiFido>
+                        <CodiceMastro>05</CodiceMastro>
+                        <CodiceConto>80</CodiceConto>
+                        <TipoFido>CONTINUATIVO</TipoFido>
+                        <Descrizione>PLAFOND DI CREDITO PRO SOLUTO ACCORDATI.</Descrizione>
+                        <TabDatiGeneraliFido>
+                            <ImportoConcentrazione>5.000.000</ImportoConcentrazione>
+                            <DataScadenza>31.12.2023</DataScadenza>
+                            <CausaleOperazione>02-CONCESSIONE</CausaleOperazione>
+                            <TabLimitiUtilizzo/>
+                        </TabDatiGeneraliFido>
+                    </TabDatiFido>
+                </DatiFidoFactoring>
+                <InformazioniGenerali>
+                    <TipologiaFido>CONTINUATIVO</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInProposta>
+                <Progressivo>
+                    <Stato>Rinnovo</Stato>
+                    <Numero>01084294-025</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>3201</Codice>
+                    <Descrizione>DEBITORE PROSOLVENDO</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>500.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>500.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>0</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>-</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>A Revoca</Scadenza>
+                    <ScadenzaInProposta>A Revoca</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <NoteDiFido>
+                    <Testo>MIGRAZIONE FACT</Testo>
+                </NoteDiFido>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>08.02.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <DatiFidoFactoring>
+                    <DataUltimaDelibera>21.01.2022</DataUltimaDelibera>
+                    <TabDatiFido>
+                        <CodiceMastro>05</CodiceMastro>
+                        <CodiceConto>90</CodiceConto>
+                        <TipoFido>CONTINUATIVO</TipoFido>
+                        <Descrizione>LIMITI DI CREDITO PRO SOLVENDO ACCORDATI</Descrizione>
+                        <TabDatiGeneraliFido>
+                            <ImportoConcentrazione>500.000</ImportoConcentrazione>
+                            <DataScadenza>31.12.2023</DataScadenza>
+                            <CausaleOperazione>02-CONCESSIONE</CausaleOperazione>
+                            <TabLimitiUtilizzo/>
+                        </TabDatiGeneraliFido>
+                    </TabDatiFido>
+                </DatiFidoFactoring>
+                <InformazioniGenerali>
+                    <TipologiaFido>CONTINUATIVO</TipologiaFido>
+                    <NumeroRapporto>-</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>-</Fascicolo>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>RINNOVO</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInProposta>
+            <TabellaDettFidiGaranzieInEssere>
+                <Progressivo>
+                    <Stato>In essere</Stato>
+                    <Numero>01084294-026</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>1274</Codice>
+                    <Descrizione>Finanz. M.l.t.</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>2.285.714</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>2.285.714</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>2.285.714</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>SI</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>31.10.2023</Scadenza>
+                    <ScadenzaInProposta>80</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>01.01.1901</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>COVID 19</Nome>
+                        <Esito>NO</Esito>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>SIPF</Nome>
+                        <Esito>NO</Esito>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data/>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <TabDettagliAggiuntivi>
+                    <Preammortamento>1</Preammortamento>
+                    <Ammortamento>79</Ammortamento>
+                    <DurataComplessiva>80</DurataComplessiva>
+                    <PeriodicitaRata>S</PeriodicitaRata>
+                    <RegimeTasso>Variabile</RegimeTasso>
+                    <TassoSpread>1,45%</TassoSpread>
+                    <TipoPiano>COST</TipoPiano>
+                </TabDettagliAggiuntivi>
+                <TabGaranzieSpecifiche>
+                    <StatoProgressivo>
+                        <DettaglioStato>In essere</DettaglioStato>
+                        <Progressivo>4217351</Progressivo>
+                    </StatoProgressivo>
+                    <Stato>In essere</Stato>
+                    <FormaTecnica>I3 Ipoteca immobiliare di cred. ordinario</FormaTecnica>
+                    <NominativoGarante>RIALTO SPA</NominativoGarante>
+                    <Valore>
+                        <ImportoEuro>19.000.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </Valore>
+                    <ValoreInProposta>
+                        <ImportoEuro>19.000.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </ValoreInProposta>
+                    <Validita>REVOCA</Validita>
+                    <ValiditaInProposta>REVOCA</ValiditaInProposta>
+                </TabGaranzieSpecifiche>
+                <InformazioniGenerali>
+                    <TipologiaFido>ISOLATA</TipologiaFido>
+                    <NumeroRapporto>02399690015909200</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>RIFINANZIAMENTO DI UTILIZ</Fascicolo>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>--</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInEssere>
+            <TabellaDettFidiGaranzieInEssere>
+                <Progressivo>
+                    <Stato>In essere</Stato>
+                    <Numero>01084294-027</Numero>
+                </Progressivo>
+                <FormaTecnica>
+                    <Codice>1274</Codice>
+                    <Descrizione>Finanz. M.l.t.</Descrizione>
+                </FormaTecnica>
+                <Accordato>
+                    <ImportoEuro>3.600.000</ImportoEuro>
+                </Accordato>
+                <AccordatoInProposta>
+                    <ImportoEuro>3.600.000</ImportoEuro>
+                </AccordatoInProposta>
+                <AccordatoInDelibera>
+                    <ImportoEuro>-</ImportoEuro>
+                </AccordatoInDelibera>
+                <Utilizzato>
+                    <ImportoEuro>3.600.000</ImportoEuro>
+                </Utilizzato>
+                <Garanzie>SI</Garanzie>
+                <Covenant>-</Covenant>
+                <Scadenze>
+                    <Scadenza>31.10.2026</Scadenza>
+                    <ScadenzaInProposta>117</ScadenzaInProposta>
+                    <ScadenzaInDelibera>-</ScadenzaInDelibera>
+                    <ScadenzaDeliberata>-</ScadenzaDeliberata>
+                </Scadenze>
+                <ObblighiNormativi>
+                    <Obbligo>
+                        <Nome>Forborne</Nome>
+                        <Esito>NO</Esito>
+                        <Data>01.01.1901</Data>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>COVID 19</Nome>
+                        <Esito>NO</Esito>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>SIPF</Nome>
+                        <Esito>NO</Esito>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Calendar Provisioning</Nome>
+                        <Esito>NO</Esito>
+                        <Data/>
+                    </Obbligo>
+                    <Obbligo>
+                        <Nome>Leveraged Transaction</Nome>
+                        <Esito>S2</Esito>
+                        <Data>31.07.2023</Data>
+                    </Obbligo>
+                </ObblighiNormativi>
+                <FilialeDiAllocazione>
+                    <Importo/>
+                </FilialeDiAllocazione>
+                <TabDettagliAggiuntivi>
+                    <Preammortamento>1</Preammortamento>
+                    <Ammortamento>116</Ammortamento>
+                    <DurataComplessiva>117</DurataComplessiva>
+                    <PeriodicitaRata>S</PeriodicitaRata>
+                    <RegimeTasso>Variabile</RegimeTasso>
+                    <TassoSpread>2,2%</TassoSpread>
+                    <TipoPiano>COST</TipoPiano>
+                </TabDettagliAggiuntivi>
+                <TabGaranzieSpecifiche>
+                    <StatoProgressivo>
+                        <DettaglioStato>In essere</DettaglioStato>
+                        <Progressivo>7121908</Progressivo>
+                    </StatoProgressivo>
+                    <Stato>In essere</Stato>
+                    <FormaTecnica>I3 Ipoteca immobiliare di cred. ordinario</FormaTecnica>
+                    <NominativoGarante>RIALTO SPA</NominativoGarante>
+                    <Valore>
+                        <ImportoEuro>8.861.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </Valore>
+                    <ValoreInProposta>
+                        <ImportoEuro>8.861.000</ImportoEuro>
+                        <ImportoDivisa>-</ImportoDivisa>
+                    </ValoreInProposta>
+                    <Validita>REVOCA</Validita>
+                    <ValiditaInProposta>REVOCA</ValiditaInProposta>
+                </TabGaranzieSpecifiche>
+                <InformazioniGenerali>
+                    <TipologiaFido>ISOLATA</TipologiaFido>
+                    <NumeroRapporto>02399690015952400</NumeroRapporto>
+                    <CodiceFormaTecnica>-</CodiceFormaTecnica>
+                    <Fascicolo>RISCATTO ANTICIPATO NOSTR</Fascicolo>
+                    <FlagOTS>false</FlagOTS>
+                    <FlagOperazioniPool>false</FlagOperazioniPool>
+                    <FlagVincoliBeneficiari>false</FlagVincoliBeneficiari>
+                    <FlagPresenzaConvenzioniPlafond>false</FlagPresenzaConvenzioniPlafond>
+                    <Causale>--</Causale>
+                </InformazioniGenerali>
+            </TabellaDettFidiGaranzieInEssere>
+        </Proposta>
+        <SecurityPackage>
+            <TabellaDettaglioGaranti>
+                <DataAggiornamento>31.07.2023</DataAggiornamento>
+                <Input>
+                    <Table>
+                        <Headline>
+                            <Label>Nominativo Garante</Label>
+                            <Column>
+                                <Value>SNDG</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Data Nascita Costituzione</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Rating</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>EWS</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Totale Rischi Dir. E Ind.</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Scadenza Revisione</Value>
+                                <Color/>
+                            </Column>
+                        </Headline>
+                        <Headline>
+                            <Label>RIALTO SPA</Label>
+                            <Label>05849840151</Label>
+                            <Column>
+                                <Value>0000000017881089</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>23.05.1980</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Null</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Verde</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>39895</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>12.2022</Value>
+                                <Color/>
+                            </Column>
+                        </Headline>
+                        <Headline>
+                            <Label>GRANDI MAGAZZINI E SUPERMERCATI IL GIGANTE S.P.A.</Label>
+                            <Label>00806410155</Label>
+                            <Column>
+                                <Value>0000000017787284</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>02.04.1971</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>N/A</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>Grigio</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>0</Value>
+                                <Color/>
+                            </Column>
+                            <Column>
+                                <Value>N/A</Value>
+                                <Color/>
+                            </Column>
+                        </Headline>
+                    </Table>
+                </Input>
+            </TabellaDettaglioGaranti>
+            <CommentoSecurityPackage>
+                <GaranzieECovenant>
+                    <Titolo>Garanzie e Covenant</Titolo>
+                    <Testo>Il security package è rappresentato dall'iscrizione di ipoteca di 1° su immobili strumentali
+                        di Rialto a garanzia dei finanziamenti a MLT e dell'APC ipotecaria (perizie aggiornate nei
+                        termini previsti per tale fattispecie).&amp;lt;br/&amp;gt;La garanzia evidenziata su Grandi
+                        Magazzini e Supermercati il Gigante identificata come impegno al subentro è un refuso su pratica
+                        non più in essere da tempo da revocare con la presente pratica &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                    </Testo>
+                </GaranzieECovenant>
+                <Garanti>
+                    <NominativoGarante>RIALTO SPA</NominativoGarante>
+                    <Testo>Garante è lo stesso borrower con beni di proprietà e strumentali all'attività</Testo>
+                </Garanti>
+                <Garanti>
+                    <NominativoGarante>GRANDI MAGAZZINI E SUPERMERCATI IL GIGANTE S.P.A.</NominativoGarante>
+                    <Testo>Ancora nessun commento da mostrare</Testo>
+                </Garanti>
+            </CommentoSecurityPackage>
+        </SecurityPackage>
+        <TabellaFirme>
+            <Input>
+                <Table>
+                    <Headline>
+                        <Label>Ruolo</Label>
+                        <Column>
+                            <Value>Punto Operativo</Value>
+                        </Column>
+                        <Column>
+                            <Value>LIFA</Value>
+                        </Column>
+                        <Column>
+                            <Value>Firma</Value>
+                        </Column>
+                        <Column>
+                            <Value>Esito</Value>
+                        </Column>
+                    </Headline>
+                </Table>
+            </Input>
+        </TabellaFirme>
+        <NotaDiDelibera/>
+    </AnalisiControparte>
+</root>
