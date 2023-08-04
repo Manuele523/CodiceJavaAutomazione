@@ -1,9 +1,6 @@
 import Utils.BuildCommon;
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -15,18 +12,6 @@ import static Utils.BuildCommon.ERROR_CHARACTER;
 public class UtilsForTest {
 
     private static final String notFormatted = "INSERISCI_NOTA";
-
-    /*******************************************************************************************************************
-    * <p> TRANSFORM DB_NOTES INTO CM_NOTES                                                                        </p> *
-    *                                                                                                                  *
-    * <p> notFormatted   -> Insert note took by db                                                                </p> *
-    *                                                                                                                  *
-    *******************************************************************************************************************/
-    @Test
-    public void beautifyAlcHtml() {
-        System.out.println(BuildCommon.restoreSpecialCharacters(BuildCommon.beautifyAlcHtml(notFormatted)));
-    }
-
 
     /*******************************************************************************************************************
     * <p> FIND SPECIAL CHARACTERS INTO CREDIT_MEMO.XML                                                            </p> *
@@ -52,4 +37,16 @@ public class UtilsForTest {
         }
         System.out.println(errors.size() + " Invalid XML characters at row: " + errors);
     }
+
+    /*******************************************************************************************************************
+     * <p> TRANSFORM DB_NOTES INTO CM_NOTES                                                                        </p> *
+     *                                                                                                                  *
+     * <p> notFormatted   -> Insert note took by db                                                                </p> *
+     *                                                                                                                  *
+     *******************************************************************************************************************/
+    @Test
+    public void beautifyAlcHtml() {
+        System.out.println(BuildCommon.restoreSpecialCharacters(BuildCommon.beautifyAlcHtml(notFormatted)));
+    }
+
 }

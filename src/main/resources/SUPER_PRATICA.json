@@ -1,0 +1,1205 @@
+{
+  "_id": {
+    "$numberLong": "1109816"
+  },
+  "AMBIENTE_PRATICA": "PROD",
+  "codTipoPratica": "NCCFC",
+  "COD_UO_ORIGINARIO": "03118",
+  "DT_INSERIMENTO_PRATICA": "2022-12-20 16:09:17.564",
+  "FILIALE_ISP": "60113",
+  "flgControproposta": false,
+  "flgFreeze": false,
+  "flgPresenzaRichiestaPrecedenteTempoDeterminato": false,
+  "RACCORDO_ID": {
+    "ID_PRATICA_CONCESSIONE": "3544672",
+    "NUMERO_PEF": "01025/03118/2022/01191"
+  },
+  "TIPO_SUPERPRATICA": "WBC",
+  "ANAGRAFICA": {
+    "ANAG_CLIENTE": {
+      "ANAGRAFICA_ISP": {
+        "codTipoSegmentazione": "CO",
+        "codAbi": "01025",
+        "codDenominazioneGruppo": "GRUPPO BARNI CARLO",
+        "codFiscale": "10635290157",
+        "codNsg": "0007043839094000",
+        "codPartitaIva": "10635290157",
+        "codSndg": "0000000017879990",
+        "desDenominazione": "BARNI CARLO SPA",
+        "flgStandAlone": false,
+        "codStatoAmministrativoGruppo": "IB"
+      }
+    }
+  },
+  "RISK": {
+    "stage": "1",
+    "forbone": "NO",
+    "cra": {
+      "codColore": "00",
+      "datInizioValiditaGruppo": {
+        "chronology": {
+          "_id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "dayOfMonth": {
+          "$numberLong": "6"
+        },
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": {
+          "$numberLong": "6"
+        },
+        "era": {
+          "value": {
+            "$numberLong": "1"
+          }
+        },
+        "leapYear": false,
+        "month": "JANUARY",
+        "monthValue": {
+          "$numberLong": "1"
+        },
+        "year": {
+          "$numberLong": "2023"
+        }
+      },
+      "desColore": "00"
+    },
+    "esitoEws": {
+      "codColorSemaforoCalc": "#00CC00",
+      "datRifColor": {
+        "chronology": {
+          "_id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "dayOfMonth": {
+          "$numberLong": "14"
+        },
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": {
+          "$numberLong": "287"
+        },
+        "era": {
+          "value": {
+            "$numberLong": "1"
+          }
+        },
+        "leapYear": false,
+        "month": "OCTOBER",
+        "monthValue": {
+          "$numberLong": "10"
+        },
+        "year": {
+          "$numberLong": "2022"
+        }
+      }
+    },
+    "rating": {
+      "codRating": "I5",
+      "codStato": "I5",
+      "datFineValidita": {
+        "chronology": {
+          "_id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "dayOfMonth": {
+          "$numberLong": "31"
+        },
+        "dayOfWeek": "SUNDAY",
+        "dayOfYear": {
+          "$numberLong": "365"
+        },
+        "era": {
+          "value": {
+            "$numberLong": "1"
+          }
+        },
+        "leapYear": false,
+        "month": "DECEMBER",
+        "monthValue": {
+          "$numberLong": "12"
+        },
+        "year": {
+          "$numberLong": "2023"
+        }
+      }
+    }
+  },
+  "codFilialeAperturaPratica": "03118",
+  "STATO_PRATICA": [
+    {
+      "COD_STATO": "1010",
+      "DESC_STATO": "Proposta  In definizione",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "22116782"
+      },
+      "TIMESTAMP": "2022-12-20 16:09:19.155"
+    },
+    {
+      "COD_STATO": "1010",
+      "COD_STATO_CLAIM": "1010",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  In definizione",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "22116782"
+      },
+      "TIMESTAMP": "2023-01-12 11:16:03.044"
+    },
+    {
+      "COD_STATO": "1010",
+      "COD_STATO_CLAIM": "1010",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  In definizione",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "22116782"
+      },
+      "TIMESTAMP": "2023-01-12 11:16:04.028"
+    },
+    {
+      "COD_STATO": "1020",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  Definito",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23051676"
+      },
+      "TIMESTAMP": "2023-01-12 11:16:04.219"
+    },
+    {
+      "COD_STATO": "1020",
+      "COD_STATO_CLAIM": "1020",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  Definito",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23051676"
+      },
+      "TIMESTAMP": "2023-01-12 11:16:26.806"
+    },
+    {
+      "COD_STATO": "1030",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Aperta",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23054586"
+      },
+      "TIMESTAMP": "2023-01-12 11:33:23.790"
+    },
+    {
+      "COD_STATO": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23054724"
+      },
+      "TIMESTAMP": "2023-01-12 11:34:48.241"
+    },
+    {
+      "COD_STATO": "1040",
+      "COD_STATO_CLAIM": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23054724"
+      },
+      "TIMESTAMP": "2023-01-12 11:34:54.136"
+    },
+    {
+      "COD_STATO": "1040",
+      "COD_STATO_CLAIM": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23054724"
+      },
+      "TIMESTAMP": "2023-01-20 19:09:45.366"
+    },
+    {
+      "COD_STATO": "1050",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Superamento Controlli",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23642622"
+      },
+      "TIMESTAMP": "2023-01-20 19:09:46.298"
+    },
+    {
+      "COD_STATO": "1060",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23714613"
+      },
+      "TIMESTAMP": "2023-01-23 10:06:20.312"
+    },
+    {
+      "COD_STATO": "1060",
+      "COD_STATO_CLAIM": "1060",
+      "CODICE_ANALISTA": "U201262",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U201262",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23714613"
+      },
+      "TIMESTAMP": "2023-01-23 10:24:25.349"
+    },
+    {
+      "COD_STATO": "1040",
+      "CODICE_ANALISTA": "U201262",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23716752"
+      },
+      "TIMESTAMP": "2023-01-23 10:24:27.426"
+    },
+    {
+      "COD_STATO": "1040",
+      "COD_STATO_CLAIM": "1040",
+      "CODICE_ANALISTA": "U201262",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U201262",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23716752"
+      },
+      "TIMESTAMP": "2023-01-23 10:27:24.878"
+    },
+    {
+      "COD_STATO": "1050",
+      "CODICE_ANALISTA": "U201262",
+      "DESC_STATO": "Proposta Superamento Controlli",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23717588"
+      },
+      "TIMESTAMP": "2023-01-23 10:27:25.676"
+    },
+    {
+      "COD_STATO": "1060",
+      "CODICE_ANALISTA": "U201262",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23715645"
+      },
+      "TIMESTAMP": "2023-01-23 10:27:27.412"
+    },
+    {
+      "COD_STATO": "1060",
+      "COD_STATO_CLAIM": "1060",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23715645"
+      },
+      "TIMESTAMP": "2023-01-23 15:18:20.509"
+    },
+    {
+      "ANALISTA": "SCOTTO DI CARLO MALIKA",
+      "COD_STATO": "1070",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23751646"
+      },
+      "TIMESTAMP": "2023-01-23 15:18:21.617"
+    },
+    {
+      "ANALISTA": "SCOTTO DI CARLO MALIKA",
+      "COD_STATO": "1070",
+      "COD_STATO_CLAIM": "1070",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23751646"
+      },
+      "TIMESTAMP": "2023-01-23 15:18:31.849"
+    },
+    {
+      "COD_STATO": "1085",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "inoltrata",
+      "TASK_ID": {
+        "$numberLong": "23751652"
+      },
+      "TIMESTAMP": "2023-01-23 15:18:33.607"
+    },
+    {
+      "COD_STATO": "1085",
+      "COD_STATO_CLAIM": "1085",
+      "CODICE_ANALISTA": "U201354",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U201354",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23751652"
+      },
+      "TIMESTAMP": "2023-01-23 16:02:23.194"
+    },
+    {
+      "COD_STATO": "2005",
+      "DATA_ARRIVO": "2023-01-23 16:05:08.494",
+      "DESC_STATO": "Analisi creditizia da assegnare",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "Da assegnare",
+      "TASK_ID": {
+        "$numberLong": "23756778"
+      },
+      "TIMESTAMP": "2023-01-23 16:05:09.019"
+    },
+    {
+      "COD_STATO": "2005",
+      "DESC_STATO": "Analisi creditizia da assegnare",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "MOTIVAZIONE_RICICLO": "ALTRO",
+      "NOTA_RICILO": "verifica competenza deliberativa ",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TIMESTAMP": "2023-01-23 16:47:53.136",
+      "TIPO_RICICLO": "RICICLO_PROPOSITORE"
+    },
+    {
+      "COD_STATO": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23760867"
+      },
+      "TIMESTAMP": "2023-01-23 16:47:53.553"
+    },
+    {
+      "COD_STATO": "1040",
+      "COD_STATO_CLAIM": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23760867"
+      },
+      "TIMESTAMP": "2023-01-24 09:16:56.023"
+    },
+    {
+      "COD_STATO": "1020",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  Definito",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23789738"
+      },
+      "TIMESTAMP": "2023-01-24 09:16:56.961"
+    },
+    {
+      "COD_STATO": "1020",
+      "COD_STATO_CLAIM": "1020",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta  Definito",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23789738"
+      },
+      "TIMESTAMP": "2023-01-24 09:22:25.058"
+    },
+    {
+      "COD_STATO": "1030",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Aperta",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23790703"
+      },
+      "TIMESTAMP": "2023-01-24 09:22:46.245"
+    },
+    {
+      "COD_STATO": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23790870"
+      },
+      "TIMESTAMP": "2023-01-24 09:24:54.922"
+    },
+    {
+      "COD_STATO": "1040",
+      "COD_STATO_CLAIM": "1040",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta in Analisi",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23790870"
+      },
+      "TIMESTAMP": "2023-01-24 09:24:59.866"
+    },
+    {
+      "COD_STATO": "1050",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Superamento Controlli",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23791581"
+      },
+      "TIMESTAMP": "2023-01-24 09:30:27.116"
+    },
+    {
+      "COD_STATO": "1060",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23790936"
+      },
+      "TIMESTAMP": "2023-01-24 09:30:49.054"
+    },
+    {
+      "COD_STATO": "1060",
+      "COD_STATO_CLAIM": "1060",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Completamento",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23790936"
+      },
+      "TIMESTAMP": "2023-01-24 09:36:21.414"
+    },
+    {
+      "ANALISTA": "SCOTTO DI CARLO MALIKA",
+      "COD_STATO": "1070",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "n/a",
+      "TASK_ID": {
+        "$numberLong": "23797810"
+      },
+      "TIMESTAMP": "2023-01-24 10:00:37.959"
+    },
+    {
+      "ANALISTA": "SCOTTO DI CARLO MALIKA",
+      "COD_STATO": "1070",
+      "COD_STATO_CLAIM": "1070",
+      "CODICE_ANALISTA": "U076653",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U076653",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23797810"
+      },
+      "TIMESTAMP": "2023-01-24 10:00:58.099"
+    },
+    {
+      "COD_STATO": "1085",
+      "CODICE_ANALISTA": "U201354",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "inoltrata",
+      "TASK_ID": {
+        "$numberLong": "23797819"
+      },
+      "TIMESTAMP": "2023-01-24 10:01:01.938"
+    },
+    {
+      "COD_STATO": "1085",
+      "COD_STATO_CLAIM": "1085",
+      "CODICE_ANALISTA": "U201354",
+      "DESC_STATO": "Proposta Certificata",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "FLAG_CLAIM": true,
+      "MATRICOLA_CLAIM": "U201354",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TASK_ID": {
+        "$numberLong": "23797819"
+      },
+      "TIMESTAMP": "2023-01-24 11:25:45.964"
+    },
+    {
+      "COD_STATO": "2005",
+      "DATA_ARRIVO": "2023-01-24 11:25:59.058",
+      "DESC_STATO": "Analisi creditizia da assegnare",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "Da assegnare",
+      "TASK_ID": {
+        "$numberLong": "23808812"
+      },
+      "TIMESTAMP": "2023-01-24 11:25:59.601"
+    },
+    {
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "TIMESTAMP": "2023-01-24 16:20:34.258"
+    },
+    {
+      "COD_STATO": "2005",
+      "DATA_ARRIVO": "2023-01-24 16:20:34.325",
+      "DESC_STATO": "Analisi creditizia da assegnare",
+      "EVENT_NAME": "AGGIORNAMENTO_PRATICA",
+      "PROCESS_INSTANCE_ID": {
+        "$numberLong": "5495403"
+      },
+      "PUBLISHER_ACRONYM": "LMBP0",
+      "PUBLISHER_MICROSERVICE": "core-bpm-concessione-crediti-v1",
+      "STATO_PRATICA_ISP": "Da assegnare",
+      "TASK_ID": {
+        "$numberLong": "23837606"
+      },
+      "TIMESTAMP": "2023-01-24 16:20:34.376"
+    }
+  ],
+  "COD_VERSIONE": "6.00",
+  "DIREZIONE_REGIONALE": "09546",
+  "FIDO_CMLT": {
+    "datUltimaRevisione": {
+      "chronology": {
+        "_id": "ISO",
+        "calendarType": "iso8601"
+      },
+      "dayOfMonth": {
+        "$numberLong": "30"
+      },
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": {
+        "$numberLong": "334"
+      },
+      "era": {
+        "value": {
+          "$numberLong": "1"
+        }
+      },
+      "leapYear": false,
+      "month": "NOVEMBER",
+      "monthValue": {
+        "$numberLong": "11"
+      },
+      "year": {
+        "$numberLong": "2023"
+      }
+    },
+    "fidoCMLT": [
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "77"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "78"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "72"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "73"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "76"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "70"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "71"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "67"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "78"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "78"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "78"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "78"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "77"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "77"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "77"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "77"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "76"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "76"
+        }
+      },
+      {
+        "codTipoFido": "C",
+        "datScadenza": {
+          "chronology": {
+            "_id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "dayOfMonth": {
+            "$numberLong": "31"
+          },
+          "dayOfWeek": "FRIDAY",
+          "dayOfYear": {
+            "$numberLong": "365"
+          },
+          "era": {
+            "value": {
+              "$numberLong": "1"
+            }
+          },
+          "leapYear": false,
+          "month": "DECEMBER",
+          "monthValue": {
+            "$numberLong": "12"
+          },
+          "year": {
+            "$numberLong": "9999"
+          }
+        },
+        "numProgressivoFidoGf": {
+          "$numberDecimal": "76"
+        }
+      }
+    ]
+  },
+  "OBBLIGHI": [
+    {
+      "codTipoObbligo": "OBB011",
+      "flgEsecuzioneObbligo": false
+    }
+  ],
+  "PARERI": [
+    {}
+  ],
+  "RWA_WBC": {
+    "codClasseCompetenzaDeliberativa": "A",
+    "codITER": "21",
+    "codIndustryRichiedente": "   ",
+    "codLifaDeliberante": "HX",
+    "totRwaGB": "8908409"
+  },
+  "PUNTO_OPERATIVO_PRATICA": "09546",
+  "timestampInoltro": {
+    "$date": {
+      "$numberLong": "1674577234258"
+    }
+  },
+  "SERVIZIO_ASSEGNATARIO": "DC CBDT CONCESSIONE FACTORING",
+  "UFFICIO_ASSEGNATARIO": "DC BDT CONC FACTORING CIB E BDT NORD EST",
+  "filtri": {
+    "ultimoStato": "2005",
+    "equalPointOC": false,
+    "isNotAnomaloPA": true,
+    "flgClaim": false
+  }
+}
