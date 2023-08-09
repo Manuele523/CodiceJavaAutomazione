@@ -11,6 +11,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Superpratica {
 
+    @JsonProperty("_id")
+    private Object _id;
+
     @JsonProperty("RACCORDO_ID")
     private RaccordoId raccordoId;
 

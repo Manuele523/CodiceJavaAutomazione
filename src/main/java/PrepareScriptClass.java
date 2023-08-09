@@ -41,8 +41,8 @@ public class PrepareScriptClass {
     @Test
     public void prepareScriptSQL_T_PAD_FIDO() {
         String numIncident = "INSERISCI_NUMERO_INCIDENT";
-        mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
-//        mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
+        mapKV.put((idFido = 1), "INSERISCI_LA_TUA_NOTA1");
+//        mapKV.put((idFido = 2), "INSERISCI_LA_TUA_NOTA2");
 
         mapKV.forEach((idNota, nota) -> {
             prepareComuneScript(nota, T_PAD_FIDO, idNota);
@@ -56,7 +56,7 @@ public class PrepareScriptClass {
     *                                                                                                                  *
     * <p> numIncident    -> Inserisci il numero dell'incident                                                     </p> *
     * <p> mapKV          -> Inserisci le tue note                                                                 </p> *
-    * <p> idFido         -> Inserisci l'id della nota da aggiornare                                               </p> *
+    * <p> idFidoEsteso   -> Inserisci l'id della nota da aggiornare                                               </p> *
     *                                                                                                                  *
     * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
     *                                                                                                                  *
@@ -64,8 +64,8 @@ public class PrepareScriptClass {
     @Test
     public void prepareScriptSQL_T_PAD_FIDO_ESTESO() {
         String numIncident = "INSERISCI_NUMERO_INCIDENT";
-        mapKV.put((idNotePratica = 1), "INSERISCI_LA_TUA_NOTA1");
-//        mapKV.put((idNotePratica = 2), "INSERISCI_LA_TUA_NOTA2");
+        mapKV.put((idFidoEsteso = 1), "INSERISCI_LA_TUA_NOTA1");
+//        mapKV.put((idFidoEsteso = 2), "INSERISCI_LA_TUA_NOTA2");
 
         mapKV.forEach((idNota, nota) -> {
             prepareComuneScript(nota, T_PAD_FIDO_ESTESO, idNota);
