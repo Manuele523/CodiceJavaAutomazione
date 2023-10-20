@@ -112,9 +112,10 @@ public class AddressingFileRule {
     public static void addrFinanzaStrutturata(Superpratica superpratica, Map<String, String> office) {
 
         String codTipoSegmentazione = checkAnagraficaExist(superpratica) ? superpratica.getAnagrafica().getAnagCliente().getAnagraficaIsp().getCodTipoSegmentazione() : null;
+        boolean isCib = StringUtils.isNotEmpty(superpratica.getRwaWbc().getCodIndustryRichiedente().trim());
 
         if (MapUtils.isEmpty(office) && nonNull(codTipoSegmentazione)) {
-            if (checkRwaWbcExist(superpratica)) {
+            if (isCib) {
                 if (SEGMENTAZIONE_REGOLAMENTARE_60139.contains(codTipoSegmentazione)) {
                     setOffice(office, "FINANZA_STRUTTURATA", "60139");
                 }
