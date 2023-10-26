@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-import static Utils.BuildCommon.ERROR_CHARACTER;
+import static Utils.BuildCommon.*;
 
 public class UtilsForTest {
 
@@ -26,12 +26,7 @@ public class UtilsForTest {
         List<Integer> errors = new ArrayList<>();
         try {
             List<String> docLines = Files.readAllLines(Paths.get("src/main/resources/dirtyCM.xml"), StandardCharsets.UTF_8);
-            for (int i = 0; i < docLines.size(); i++) {
-                String line = docLines.get(i);
-                if (line.contains(ERROR_CHARACTER)) {
-                    errors.add(i+1);
-                }
-            }
+            checkForErrorInDocLines(docLines, errors);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

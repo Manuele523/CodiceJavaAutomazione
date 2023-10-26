@@ -24,8 +24,8 @@ public class Constants {
     public static final Map<String, String> MAP_AREA_TERRITORIALE_BONIS_BDT = initMapBonisBdt();
     public static final Map<String, String> MAP_INDSUTRY_BONIS_CIB = initMapBonisCib();
 
-    public static final List<String> AREA_CORPORATE_60113 = Arrays.asList("01383", "08493", "08492", "08312", "12808", "08684", "09035", "14334", "01595", "08681", "08683", "00797", "00788", "08685", "00791", "00871", "09034", "03706");
-    public static final List<String> AREA_CORPORATE_60114 = Collections.singletonList("15206");
+    public static final List<String> AREA_CORPORATE_60113 = Arrays.asList("01383", "08493", "08492", "08312", "12808", "08684", "09035", "14334", "01595", "08681", "08683", "00797", "00788", "08685", "00791", "00871", "09034", "03706", "39167","39166","39165","39192","39161","39163","39164","39168");
+    public static final List<String> AREA_CORPORATE_60114 = Arrays.asList("15206", "39169");
 
     public static final List<String> SEGMENTAZIONE_REGOLAMENTARE_60103 = Arrays.asList("CORED", "SCRED", "SRRED", "COFSR", "SCFSR", "SRFSR", "COFSC", "SCFSC", "COCRE", "SCCRE", "CORE", "SCRE");
     public static final List<String> SEGMENTAZIONE_REGOLAMENTARE_60115 = Arrays.asList("COPF", "SCPF", "COLAF", "SCLAF", "COAF", "SCAF", "COFSP", "SCFSP", "COFSL", "SCFSL", "COFSA", "SCFSA");

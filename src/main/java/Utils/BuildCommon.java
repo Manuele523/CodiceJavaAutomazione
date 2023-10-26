@@ -4,7 +4,11 @@ import lombok.Getter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.StringEscapeUtils;
 
+import java.util.List;
+
 public class BuildCommon {
+
+    private static String PEAK = "'", DOUBLE_PEAK = "\"";
 
     @Getter
     public enum specialTag{
@@ -23,12 +27,19 @@ public class BuildCommon {
         amp, gt, lt
     }
 
-    public static String ERROR_CHARACTER = "\u001A";
+    public static String ERROR_CHARACTERS_1 = "\u001A";
+    public static String ERROR_CHARACTERS_2 = "\u0080";
+    public static String ERROR_CHARACTERS_3 = "\u0092";
+    public static String ERROR_CHARACTERS_4 = "\u0093";
+    public static String ERROR_CHARACTERS_5 = "\u0094";
+    public static String ERROR_CHARACTERS_6 = "\u0095";
+    public static String ERROR_CHARACTERS_7 = "\u0096";
+    public static String ERROR_CHARACTERS_8 = "\u002A";
 
     public static String beautifyAlcHtml(String commento) {
-        String beautifyHtml = org.apache.commons.lang3.StringUtils.EMPTY;
+        String beautifyHtml = StringUtils.EMPTY;
 
-        if (org.apache.commons.lang3.StringUtils.isNotEmpty(commento)) {
+        if (StringUtils.isNotEmpty(commento)) {
             String unescapeHtml = StringEscapeUtils.unescapeHtml4(commento);
             unescapeHtml = unescapeHtml.replace("\n", StringUtils.EMPTY)
                     .replaceAll("\\<span.*?\\>", StringUtils.EMPTY)
@@ -345,5 +356,31 @@ public class BuildCommon {
                 .replace("&diams;", "♦");
 
         return unescapeHtml;
+    }
+
+    public static String removeDirtyCharacters(String desNote) {
+        return desNote.replaceAll("\u001A", StringUtils.SPACE)
+                .replaceAll("\u0080", StringUtils.SPACE)
+                .replaceAll("\u0092", PEAK)
+                .replaceAll("\u0093", DOUBLE_PEAK)
+                .replaceAll("\u0094", DOUBLE_PEAK)
+                .replaceAll("\u0095", StringUtils.SPACE)
+                .replaceAll("\u0096", "-");
+    }
+
+    public static void checkForErrorInDocLines(List<String> docLines, List<Integer> errors) {
+        for (int i = 0; i < docLines.size(); i++) {
+            String line = docLines.get(i);
+            if (line.contains(ERROR_CHARACTERS_1)
+                    || line.contains(ERROR_CHARACTERS_2)
+                    || line.contains(ERROR_CHARACTERS_3)
+                    || line.contains(ERROR_CHARACTERS_4)
+                    || line.contains(ERROR_CHARACTERS_5)
+                    || line.contains(ERROR_CHARACTERS_6)
+                    || line.contains(ERROR_CHARACTERS_7)
+                    || line.contains(ERROR_CHARACTERS_8)) {
+                errors.add(i+1);
+            }
+        }
     }
 }
