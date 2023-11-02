@@ -28,13 +28,7 @@ public class BuildCommon {
     }
 
     public static String ERROR_CHARACTERS_1 = "\u001A";
-    public static String ERROR_CHARACTERS_2 = "\u0080";
-    public static String ERROR_CHARACTERS_3 = "\u0092";
-    public static String ERROR_CHARACTERS_4 = "\u0093";
-    public static String ERROR_CHARACTERS_5 = "\u0094";
-    public static String ERROR_CHARACTERS_6 = "\u0095";
-    public static String ERROR_CHARACTERS_7 = "\u0096";
-    public static String ERROR_CHARACTERS_8 = "\u002A";
+    public static String ERROR_CHARACTERS_2 = "\f";;
 
     public static String beautifyAlcHtml(String commento) {
         String beautifyHtml = StringUtils.EMPTY;
@@ -371,7 +365,8 @@ public class BuildCommon {
     public static void checkForErrorInDocLines(List<String> docLines, List<Integer> errors) {
         for (int i = 0; i < docLines.size(); i++) {
             String line = docLines.get(i);
-            if (line.contains(ERROR_CHARACTERS_1)) {
+            if (line.contains(ERROR_CHARACTERS_1)
+                || line.contains(ERROR_CHARACTERS_2)) {
                 errors.add(i+1);
             }
         }
