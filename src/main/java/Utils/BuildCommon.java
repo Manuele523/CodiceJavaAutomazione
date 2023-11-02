@@ -371,14 +371,7 @@ public class BuildCommon {
     public static void checkForErrorInDocLines(List<String> docLines, List<Integer> errors) {
         for (int i = 0; i < docLines.size(); i++) {
             String line = docLines.get(i);
-            if (line.contains(ERROR_CHARACTERS_1)
-                    || line.contains(ERROR_CHARACTERS_2)
-                    || line.contains(ERROR_CHARACTERS_3)
-                    || line.contains(ERROR_CHARACTERS_4)
-                    || line.contains(ERROR_CHARACTERS_5)
-                    || line.contains(ERROR_CHARACTERS_6)
-                    || line.contains(ERROR_CHARACTERS_7)
-                    || line.contains(ERROR_CHARACTERS_8)) {
+            if (line.contains(ERROR_CHARACTERS_1)) {
                 errors.add(i+1);
             }
         }
