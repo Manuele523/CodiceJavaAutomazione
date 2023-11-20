@@ -2,6 +2,7 @@ import ObjectForTest.Superpratica.RwaWbc;
 import ObjectForTest.Superpratica.Superpratica;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
@@ -39,6 +40,9 @@ public class FindUfficioWBC {
 
         Map<String, String> mapOffice = new HashMap<>();
         if (nonNull(superpratica) && statiDaAssegnare.contains(superpratica.getFiltri().getUltimoStato())) {
+
+            addrNot01025(superpratica, mapOffice);
+
             addrFactoring(superpratica, mapOffice);
             addrProattivo(superpratica, mapOffice);
             addrFilialiEstere(superpratica, mapOffice);

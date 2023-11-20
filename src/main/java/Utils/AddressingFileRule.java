@@ -14,6 +14,27 @@ import static java.util.Objects.nonNull;
 
 public class AddressingFileRule {
 
+    private static final String FIDEURAM = "03296";
+    private static final String ISPB = "03239";
+
+    public static void addrNot01025(Superpratica superpratica, Map<String, String> office) {
+        if (MapUtils.isEmpty(office) && checkIfNot01025(superpratica)) {
+            String codAbi = superpratica.getAnagrafica().getAnagCliente().getAnagraficaIsp().getCodAbi();
+            String uoPrivateBanking = ISPB.equals(codAbi) ? addrUoPrivateBanking(superpratica.getPuntoOperativoPratica()) : addrUoFideuram(superpratica.getPuntoOperativoPratica());
+            if (uoPrivateBanking != null) {
+                setOffice(office, "PRIVATE_BANKING", uoPrivateBanking);
+            }
+        }
+    }
+
+    private static String addrUoPrivateBanking(String po) {
+        return "00022".equals(po) ? "04043" : po;
+    }
+
+    private static String addrUoFideuram(String po) {
+        return "01911".equals(po) ? "06500" : po;
+    }
+
     public static void addrFactoring(Superpratica superpratica, Map<String, String> office) {
         if (MapUtils.isEmpty(office) && checkRwaWbcExist(superpratica)) {
             String codITER = superpratica.getRwaWbc().getCodITER();
@@ -161,6 +182,13 @@ public class AddressingFileRule {
         return nonNull(superpratica.getRwaWbc())
                 && nonNull(superpratica.getRwaWbc().getCodITER())
                 && nonNull(superpratica.getRwaWbc().getCodClasseCompetenzaDeliberativa());
+    }
+
+    private static Boolean checkIfNot01025(Superpratica superpratica) {
+        return nonNull(superpratica.getAnagrafica())
+                && nonNull(superpratica.getAnagrafica().getAnagCliente())
+                && nonNull(superpratica.getAnagrafica().getAnagCliente().getAnagraficaIsp())
+                && !"01025".equals(superpratica.getAnagrafica().getAnagCliente().getAnagraficaIsp().getCodAbi());
     }
 
     private static Boolean checkAnagraficaExist(Superpratica superpratica) {
