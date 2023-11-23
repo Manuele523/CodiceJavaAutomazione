@@ -74,4 +74,22 @@ public class PrepareScriptClass {
         createFileSql(String.valueOf(T_PAD_FIDO_ESTESO), numIncident);
     }
 
+    // WIP
+    @Test
+    public void prepareScriptSQL_Dynamic() {
+        String numIncident = "INSERISCI_NUMERO_INCIDENT";
+        NOME_TABELLA = "INSERISCI_NOTE_TABELLA";
+        NOME_COLONNA = "INSERISCE_NOME_COLONNA";
+        ID_DINAMICO = "INSERISCI_ID_DELLA_WHERE";
+
+        mapKV.put((idFidoEsteso = 1), "INSERISCI_LA_TUA_NOTA1");
+//        mapKV.put((idFidoEsteso = 2), "INSERISCI_LA_TUA_NOTA2");
+
+        mapKV.forEach((idNota, nota) -> {
+            prepareComuneScriptDinamico(nota, idNota);
+        });
+
+        createFileSql(String.valueOf(NOME_TABELLA), numIncident);
+    }
+
 }
