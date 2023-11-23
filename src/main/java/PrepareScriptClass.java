@@ -75,6 +75,18 @@ public class PrepareScriptClass {
     }
 
     // WIP
+    /*******************************************************************************************************************
+    * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER TABELLA DINAMICA                                             </p> *
+    *                                                                                                                  *
+    * <p> numIncident    -> Inserisci il numero dell'incident                                                     </p> *
+    * <p> NOME_TABELLA   -> Inserisci nome  della tabella su cui fare update                                      </p> *
+    * <p> NOME_COLONNA   -> Inserisci nome della colonna su cui devi effettuare la bonifica                       </p> *
+    * <p> ID_DINAMICO    -> Inserisci nome della colonna PK su qui fare la where condition                        </p> *
+     * <p> mapKV         -> Inserisci le tue note                                                                 </p> *
+    *                                                                                                                  *
+    * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
+    *                                                                                                                  *
+    *******************************************************************************************************************/
     @Test
     public void prepareScriptSQL_Dynamic() {
         String numIncident = "INSERISCI_NUMERO_INCIDENT";
