@@ -14,27 +14,25 @@ public class PreprareCommonScript {
     public enum TypeTable {
         T_PAD_NOTE_PRATICA,
         T_PAD_FIDO,
-        T_PAD_FIDO_ESTESO,
-        DINAMICA
+        T_PAD_FIDO_ESTESO
     }
 
     private static final String segnoUguale = "=", segnoConcatena = " = TIPO ||";
     private static String campo = StringUtils.EMPTY,
             query = StringUtils.EMPTY,
-            idCampo = StringUtils.EMPTY,
             DEFINE_OFF = "SET DEFINE OFF;\n",
             scriptSQL = StringUtils.EMPTY,
             scriptMongolo = StringUtils.EMPTY;
 
     public static Integer idNotePratica, idFido, idFidoEsteso;
-    public static String NOME_TABELLA, NOME_COLONNA, ID_DINAMICO;
+    public static String NOME_TABELLA, NOME_COLONNA, ID_NOME_TABELLA_WHERE;
 
     public static Map<Integer, String> mapKV = new HashMap<>();
 
     public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_NOTA = QUI_METTI_ID;\n",
             queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n",
             queryFidoEsteso = "UPDATE LMBE_OWN.T_PAD_FIDO_ESTESO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO_ESTESO = QUI_METTI_ID;\n",
-            queryDinamica = "UPDATE LMBE_OWN.NOME_TABELLA SET NOME_COLONNA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_DINAMICO = QUI_METTI_ID;\n",
+            queryDinamica = "UPDATE LMBE_OWN.NOME_TABELLA SET NOME_COLONNA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_NOME_TABELLA_WHERE = QUI_METTI_ID;\n",
             queryFilialeIsp = "db.SUPERPRATICA.updateOne({_id: ID_MONGOLO}, {$set: {FILIALE_ISP: \"STRINGA_DA_CAMBIARE\"}});\n";
 
     public static void prepareComuneScript(String nota, TypeTable tableName, Integer id) {
@@ -124,7 +122,7 @@ public class PreprareCommonScript {
                     .replace("NOME_COLONNA", NOME_COLONNA)
                     .replace("QUI_IL_TIPO", isFirst.get() ? segnoUguale : segnoConcatena.replace("TIPO", NOME_COLONNA))
                     .replace("STRINGA_DA_CAMBIARE", r.replaceAll("'", "''"))
-                    .replace("ID_DINAMICO", ID_DINAMICO)
+                    .replace("ID_NOME_TABELLA_WHERE", ID_NOME_TABELLA_WHERE)
                     .replace("QUI_METTI_ID", id.toString()));
 
             isFirst.set(false);

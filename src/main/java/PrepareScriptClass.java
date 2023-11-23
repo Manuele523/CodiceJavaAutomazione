@@ -78,11 +78,11 @@ public class PrepareScriptClass {
     /*******************************************************************************************************************
     * <p> METODO PER CREARE LE UPDATE DELLA NOTA PER TABELLA DINAMICA                                             </p> *
     *                                                                                                                  *
-    * <p> numIncident    -> Inserisci il numero dell'incident                                                     </p> *
-    * <p> NOME_TABELLA   -> Inserisci nome  della tabella su cui fare update                                      </p> *
-    * <p> NOME_COLONNA   -> Inserisci nome della colonna su cui devi effettuare la bonifica                       </p> *
-    * <p> ID_DINAMICO    -> Inserisci nome della colonna PK su qui fare la where condition                        </p> *
-     * <p> mapKV         -> Inserisci le tue note                                                                 </p> *
+    * <p> numIncident              -> Inserisci il numero dell'incident                                           </p> *
+    * <p> NOME_TABELLA             -> Inserisci nome  della tabella su cui fare update                            </p> *
+    * <p> NOME_COLONNA             -> Inserisci nome della colonna su cui devi effettuare la bonifica             </p> *
+    * <p> ID_NOME_TABELLA_WHERE    -> Inserisci nome della colonna PK su qui fare la where condition              </p> *
+    * <p> mapKV                    -> Inserisci le tue note                                                       </p> *
     *                                                                                                                  *
     * <p> Finita la generazione sarà creato un file.sql all'interno del progetto. (Sotto al pom)                  </p> *
     *                                                                                                                  *
@@ -92,7 +92,7 @@ public class PrepareScriptClass {
         String numIncident = "INSERISCI_NUMERO_INCIDENT";
         NOME_TABELLA = "INSERISCI_NOTE_TABELLA";
         NOME_COLONNA = "INSERISCE_NOME_COLONNA";
-        ID_DINAMICO = "INSERISCI_ID_DELLA_WHERE";
+        ID_NOME_TABELLA_WHERE = "INSERISCI_ID_DELLA_WHERE";
 
         mapKV.put((idFidoEsteso = 1), "INSERISCI_LA_TUA_NOTA1");
 //        mapKV.put((idFidoEsteso = 2), "INSERISCI_LA_TUA_NOTA2");
