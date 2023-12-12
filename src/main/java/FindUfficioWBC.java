@@ -2,7 +2,6 @@ import ObjectForTest.Superpratica.RwaWbc;
 import ObjectForTest.Superpratica.Superpratica;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
@@ -16,8 +15,8 @@ import java.util.Map;
 
 import static Constants.Constants.statiDaAssegnare;
 import static Utils.AddressingFileRule.*;
-import static Utils.PreprareCommonScript.*;
-import static Utils.PreprareCommonScript.TypeTable.T_PAD_FIDO;
+import static Utils.PreprareCommonScript.createFileMongolo;
+import static Utils.PreprareCommonScript.createScriptMongoloDb;
 import static java.util.Objects.nonNull;
 
 public class FindUfficioWBC {
@@ -31,7 +30,7 @@ public class FindUfficioWBC {
     *******************************************************************************************************************/
     @Test
     public void findOffice() throws IOException {
-        String numIncident = "INSERISCI_NUMERO_INCIDENT";
+        String numIncident = "INC015613077";
         BufferedReader reader = Files.newBufferedReader(Paths.get("src/main/resources/SUPER_PRATICA.json"), StandardCharsets.UTF_8);
 
         ObjectMapper mapper = new ObjectMapper();

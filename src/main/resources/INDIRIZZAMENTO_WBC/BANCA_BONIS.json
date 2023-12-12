@@ -1,0 +1,129 @@
+{
+  "_id": {
+    "$oid": "64d1fb46798c85453f42a51d"
+  },
+  "tipoIndirizzamento": "BANCA_BONIS",
+  "areaActive": "ALL",
+  "listaIndirizzamenti": [
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60135",
+      "INDUSTRY": "AUT"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60135",
+      "INDUSTRY": "TEL"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60135",
+      "INDUSTRY": "SBS"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60135",
+      "INDUSTRY": "RCI"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60136",
+      "INDUSTRY": "BMH"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60136",
+      "INDUSTRY": "EAP"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60136",
+      "INDUSTRY": "POW"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60137",
+      "INDUSTRY": "FBG"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60137",
+      "INDUSTRY": "LUX"
+    },
+    {
+      "area": "CIB",
+      "uoIndirizzamento": "60140",
+      "INDUSTRY": "INF"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60104",
+      "DIREZIONE_REGIONALE": "09544"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60106",
+      "DIREZIONE_REGIONALE": "09545"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60106",
+      "DIREZIONE_REGIONALE": "09546"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60105",
+      "DIREZIONE_REGIONALE": "09547"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60105",
+      "DIREZIONE_REGIONALE": "09548"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60104",
+      "DIREZIONE_REGIONALE": "09549"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60104",
+      "DIREZIONE_REGIONALE": "09560"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60104",
+      "DIREZIONE_REGIONALE": "09590"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60105",
+      "DIREZIONE_REGIONALE": "79007"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60106",
+      "DIREZIONE_REGIONALE": "79052"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60104",
+      "DIREZIONE_REGIONALE": "79037"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60105",
+      "DIREZIONE_REGIONALE": "79022"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60106",
+      "DIREZIONE_REGIONALE": "79000"
+    },
+    {
+      "area": "BDT",
+      "uoIndirizzamento": "60105",
+      "DIREZIONE_REGIONALE": "55300"
+    }
+  ]
+}

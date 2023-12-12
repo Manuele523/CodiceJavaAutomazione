@@ -1,15 +1,29 @@
 package Utils;
 
+import ObjectForTest.IndirizzamentoWbc.IndirizzamentiWbc;
 import ObjectForTest.IndirizzamentoWbc.Indirizzamento;
+import ObjectForTest.IndirizzamentoWbc.TipoIndirizzamentoEnum;
+import ObjectForTest.IndirizzamentoWbc.TypeFactoringEnum;
+import ObjectForTest.Superpratica.RwaWbc;
 import ObjectForTest.Superpratica.Superpratica;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static Constants.Constants.*;
+import static ObjectForTest.IndirizzamentoWbc.TipoIndirizzamentoEnum.*;
 import static java.util.Objects.nonNull;
 
 public class AddressingFileRule {
@@ -35,8 +49,11 @@ public class AddressingFileRule {
         return "01911".equals(po) ? "06500" : po;
     }
 
-    public static void addrFactoring(Superpratica superpratica, Map<String, String> office) {
-        if (MapUtils.isEmpty(office) && checkRwaWbcExist(superpratica)) {
+    public static void addrFactoring(Superpratica superpratica, Map<String, String> office) throws IOException {
+        IndirizzamentiWbc indiFactoring = getIndirizzamentiWbc(FACTORING);
+
+        if (MapUtils.isEmpty(office)
+                && checkRwaWbcExist(superpratica)) {
             String codITER = superpratica.getRwaWbc().getCodITER();
             String codClasseCompetenzaDeliberativa = superpratica.getRwaWbc().getCodClasseCompetenzaDeliberativa();
 
@@ -48,23 +65,46 @@ public class AddressingFileRule {
             } else if (StringUtils.equalsIgnoreCase(codClasseCompetenzaDeliberativa, "A")
                     && checkAnagraficaExist(superpratica)
                     && nonNull(superpratica.getAnagrafica().getAnagCliente().getAnagraficaIsp().getCodAbi())) {
-                String dirRegionale = superpratica.getDirRegionale();
+                String direzioneRegionale = superpratica.getDirRegionale();
 
-                if (StringUtils.equalsIgnoreCase(codITER, "21") && StringUtils.isNotEmpty(dirRegionale)) {
-                    if (DIREZIONE_REGIONALE_60113.contains(dirRegionale)) {
-                        setOffice(office, "FACTORING", "60113");
-                    } else if (DIREZIONE_REGIONALE_60114.contains(dirRegionale)) {
-                        setOffice(office, "FACTORING", "60114");
-                    }
-                } else if (StringUtils.equalsIgnoreCase(codITER, "22") && StringUtils.isNotEmpty(dirRegionale)) {
-                    if (AREA_CORPORATE_60113.contains(dirRegionale)) {
-                        setOffice(office, "FACTORING", "60113");
-                    } else if (AREA_CORPORATE_60114.contains(dirRegionale)) {
-                        setOffice(office, "FACTORING", "60114");
-                    }
+                if (StringUtils.equalsIgnoreCase("21", codITER)) {
+                    setOffice(office, "FACTORING", getIndirizzamentoComune(indiFactoring, direzioneRegionale, TypeFactoringEnum.DIREZIONE));
+                } else if (StringUtils.equalsIgnoreCase("22", codITER)) {
+                    setOffice(office, "FACTORING", getIndirizzamentoComune(indiFactoring, direzioneRegionale, TypeFactoringEnum.AREA));
                 }
             }
         }
+    }
+
+    private static String getIndirizzamentoComune(IndirizzamentiWbc indiFactoring, String direzioneAree, TypeFactoringEnum direzione) {
+        String uoFactoring = null;
+        List<Indirizzamento> indirizzamenti = indiFactoring
+                .getListaIndirizzamenti()
+                .stream()
+                .filter(indi -> StringUtils.equalsIgnoreCase(direzione.name(), indi.getType()))
+                .collect(Collectors.toList());
+
+        if (StringUtils.isNotEmpty(direzioneAree)
+                && CollectionUtils.isNotEmpty(indirizzamenti)) {
+            List<String> office60113 = getDirezioniAreeFromOffice(indirizzamenti, "60113"),
+                    office60114 = getDirezioniAreeFromOffice(indirizzamenti, "60114");
+
+            if (office60113.contains(direzioneAree)) {
+                uoFactoring = "60113";
+            } else if (office60114.contains(direzioneAree)) {
+                uoFactoring = "60114";
+            }
+        }
+        return uoFactoring;
+    }
+
+    private static List<String> getDirezioniAreeFromOffice(List<Indirizzamento> lsIndirizzamento, String office) {
+        return lsIndirizzamento
+                .stream()
+                .filter(indi -> StringUtils.equalsIgnoreCase(office, indi.getArea()))
+                .findFirst()
+                .get()
+                .getDirezioniAree();
     }
 
     public static void addrProattivo(Superpratica superpratica, Map<String, String> office) {
@@ -108,10 +148,13 @@ public class AddressingFileRule {
         }
     }
 
-    public static void addrRealEstate(Superpratica superpratica, Map<String, String> office) {
-        if (MapUtils.isEmpty(office) && StringUtils.isNotEmpty(superpratica.getCodFilialeAperturaPratica())) {
+    public static void addrRealEstate(Superpratica superpratica, Map<String, String> office) throws IOException {
+        IndirizzamentiWbc indiRealEstate = getIndirizzamentiWbc(REAL_ESTATE);
+
+        if (MapUtils.isEmpty(office)
+                && StringUtils.isNotEmpty(superpratica.getCodFilialeAperturaPratica())) {
             String area = checkRwaWbcExist(superpratica) && StringUtils.isNotBlank(superpratica.getRwaWbc().getCodIndustryRichiedente()) ? "CIB" : "BDT";
-            Indirizzamento indirizzamento = indirizzamentoRealEstate.getListaIndirizzamenti()
+            Indirizzamento indirizzamento = indiRealEstate.getListaIndirizzamenti()
                     .stream()
                     .filter(ind -> StringUtils.equalsIgnoreCase(area, ind.getArea())
                             && StringUtils.equalsIgnoreCase(superpratica.getCodFilialeAperturaPratica(), ind.getCodFilialeAperturaPratica()))
@@ -160,14 +203,45 @@ public class AddressingFileRule {
         }
     }
 
-    public static void addrBonis(Superpratica superpratica, Map<String, String> office) {
-        if (MapUtils.isEmpty(office) && apicali.contains(superpratica.getPuntoOperativoPratica())) {
-            if (checkRwaWbcExist(superpratica) && nonNull(MAP_INDSUTRY_BONIS_CIB.get(superpratica.getRwaWbc().getCodIndustryRichiedente()))) {
-                setOffice(office, "BONIS", MAP_INDSUTRY_BONIS_CIB.get(superpratica.getRwaWbc().getCodIndustryRichiedente()));
-            } else if (StringUtils.isNotEmpty(superpratica.getDirRegionale())) {
-                setOffice(office, "BONIS", MAP_AREA_TERRITORIALE_BONIS_BDT.get(superpratica.getDirRegionale()));
+    public static void addrBonis(Superpratica superpratica, Map<String, String> office) throws IOException {
+        IndirizzamentiWbc indiBonis = getIndirizzamentiWbc(BANCA_BONIS);
+
+        if(MapUtils.isEmpty(office)
+                && nonNull(superpratica)
+                && puntoOperativiBonis.contains(superpratica.getPuntoOperativoPratica())) {
+            RwaWbc rwaWbc = nonNull(superpratica.getRwaWbc()) ? superpratica.getRwaWbc() : null;
+            Boolean isCIB = nonNull(rwaWbc) && StringUtils.isNotBlank(rwaWbc.getCodIndustryRichiedente());
+
+            if(!StringUtils.equalsIgnoreCase("OFF", indiBonis.getAreaActive())) {
+                String areaActive = indiBonis.getAreaActive();
+                Indirizzamento indirizzamento = null;
+
+                if (Boolean.TRUE.equals(isCIB)
+                        && Arrays.asList("ALL", "CIB").contains(areaActive)) {
+                    indirizzamento = indiBonis.getListaIndirizzamenti()
+                            .stream()
+                            .filter(indi -> StringUtils.equalsIgnoreCase(indi.getIndustry(), rwaWbc.getCodIndustryRichiedente()))
+                            .findFirst()
+                            .orElse(null);
+                } else if (StringUtils.isNotEmpty(superpratica.getDirRegionale())
+                        && Arrays.asList("ALL", "BDT").contains(areaActive)) {
+                    indirizzamento = indiBonis.getListaIndirizzamenti()
+                            .stream()
+                            .filter(indi -> StringUtils.equalsIgnoreCase(indi.getDirRegionale(), superpratica.getDirRegionale()))
+                            .findFirst()
+                            .orElse(null);
+                }
+                setOffice(office, "BONIS", (nonNull(indirizzamento) ? indirizzamento.getUoIndirizzamento() : null));
             }
         }
+    }
+
+    private static IndirizzamentiWbc getIndirizzamentiWbc(TipoIndirizzamentoEnum type) throws IOException {
+        BufferedReader reader = Files.newBufferedReader(Paths.get("src/main/resources/INDIRIZZAMENTO_WBC/".concat(String.valueOf(type)).concat(".json")), StandardCharsets.UTF_8);
+
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        return mapper.readValue(reader, IndirizzamentiWbc.class);
     }
 
     public static void addrDefault(Superpratica superpratica, Map<String, String> office) {

@@ -1,0 +1,38 @@
+{
+  "_id": {
+    "$oid": "62baeeb9a40efa6e7b065b00"
+  },
+  "tipoIndirizzamento": "REAL_ESTATE",
+  "listaIndirizzamenti": [
+    {
+      "area": "CIB",
+      "codFilialeAperturaPratica": "40637",
+      "uoIndirizzamento": "60139"
+    },
+    {
+      "area": "BDT",
+      "codFilialeAperturaPratica": "40637",
+      "uoIndirizzamento": "60103"
+    },
+    {
+      "area": "CIB",
+      "codFilialeAperturaPratica": "37294",
+      "uoIndirizzamento": "60139"
+    },
+    {
+      "area": "BDT",
+      "codFilialeAperturaPratica": "37294",
+      "uoIndirizzamento": "60103"
+    },
+    {
+      "area": "CIB",
+      "codFilialeAperturaPratica": "40664",
+      "uoIndirizzamento": "60139"
+    },
+    {
+      "area": "BDT",
+      "codFilialeAperturaPratica": "40664",
+      "uoIndirizzamento": "60103"
+    }
+  ]
+}
