@@ -8,6 +8,8 @@ import java.util.*;
 
 public class Constants {
 
+    public static final String LMSP_OWN = "LMSP_OWN_", LMRD_OWN = "LMSP_OWN_";
+
     public static final List<String> statiDaAssegnare = Arrays.asList("2005", "3005");
 
     public static final List<String> apicali = Arrays.asList("00003", "02462");

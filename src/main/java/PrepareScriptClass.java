@@ -1,7 +1,8 @@
 import org.junit.Test;
 
-import static Utils.PreprareCommonScript.*;
-import static Utils.PreprareCommonScript.TypeTable.*;
+import static Utils.CommonCreateFile.createFileSql;
+import static Utils.PreprareCommonScript_SQL.TypeTable.*;
+import static Utils.PreprareCommonScript_SQL.*;
 
 public class PrepareScriptClass {
 
@@ -25,7 +26,7 @@ public class PrepareScriptClass {
             prepareComuneScript(nota, T_PAD_NOTE_PRATICA, idNota);
         });
 
-        createFileSql(String.valueOf(T_PAD_NOTE_PRATICA), numIncident);
+        createFileSql(String.valueOf(T_PAD_NOTE_PRATICA), numIncident, scriptSQL);
     }
 
     /*******************************************************************************************************************
@@ -48,7 +49,7 @@ public class PrepareScriptClass {
             prepareComuneScript(nota, T_PAD_FIDO, idNota);
         });
 
-        createFileSql(String.valueOf(T_PAD_FIDO), numIncident);
+        createFileSql(String.valueOf(T_PAD_FIDO), numIncident, scriptSQL);
     }
 
     /*******************************************************************************************************************
@@ -71,7 +72,7 @@ public class PrepareScriptClass {
             prepareComuneScript(nota, T_PAD_FIDO_ESTESO, idNota);
         });
 
-        createFileSql(String.valueOf(T_PAD_FIDO_ESTESO), numIncident);
+        createFileSql(String.valueOf(T_PAD_FIDO_ESTESO), numIncident, scriptSQL);
     }
 
 }

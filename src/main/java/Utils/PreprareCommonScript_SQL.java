@@ -2,14 +2,12 @@ package Utils;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
-public class PreprareCommonScript {
+public class PreprareCommonScript_SQL {
 
     public enum TypeTable {
         T_PAD_NOTE_PRATICA,
@@ -20,20 +18,20 @@ public class PreprareCommonScript {
     private static final String segnoUguale = "=", segnoConcatena = " = TIPO ||";
     private static String campo = StringUtils.EMPTY,
             query = StringUtils.EMPTY,
-            DEFINE_OFF = "SET DEFINE OFF;\n",
-            scriptSQL = StringUtils.EMPTY,
-            scriptMongolo = StringUtils.EMPTY;
+            DEFINE_OFF = "SET DEFINE OFF;\n";
 
     public static Integer idNotePratica, idFido, idFidoEsteso;
-    public static String NOME_TABELLA, NOME_COLONNA, ID_NOME_TABELLA_WHERE;
+    public static String NOME_TABELLA,
+            NOME_COLONNA,
+            ID_NOME_TABELLA_WHERE,
+            scriptSQL = StringUtils.EMPTY;
 
     public static Map<Integer, String> mapKV = new HashMap<>();
 
     public static final String queryNotePratica = "UPDATE LMBE_OWN.T_PAD_NOTE_PRATICA SET DES_NOTA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_NOTA = QUI_METTI_ID;\n",
             queryFido = "UPDATE LMBE_OWN.T_PAD_FIDO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO = QUI_METTI_ID;\n",
             queryFidoEsteso = "UPDATE LMBE_OWN.T_PAD_FIDO_ESTESO SET DES_NOTE_FIDO QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_FIDO_ESTESO = QUI_METTI_ID;\n",
-            queryDinamica = "UPDATE LMBE_OWN.NOME_TABELLA SET NOME_COLONNA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_NOME_TABELLA_WHERE = QUI_METTI_ID;\n",
-            queryFilialeIsp = "db.SUPERPRATICA.updateOne({_id: ID_MONGOLO}, {$set: {FILIALE_ISP: \"STRINGA_DA_CAMBIARE\"}});\n";
+            queryDinamica = "UPDATE LMBE_OWN.NOME_TABELLA SET NOME_COLONNA QUI_IL_TIPO 'STRINGA_DA_CAMBIARE', TMS_UPDATE = SYSTIMESTAMP WHERE ID_NOME_TABELLA_WHERE = QUI_METTI_ID;\n";
 
     public static void prepareComuneScript(String nota, TypeTable tableName, Integer id) {
         AtomicReference<Boolean> isFirst = new AtomicReference<>(true);
@@ -58,11 +56,6 @@ public class PreprareCommonScript {
         scriptSQL += script[0] + "\n";
     }
 
-    public static void createScriptMongoloDb(Object obj, String office) {
-        String id = obj.toString().replace("{$numberLong=", StringUtils.EMPTY).replace("}", StringUtils.EMPTY);
-        scriptMongolo = queryFilialeIsp.replace("ID_MONGOLO", id).replace("STRINGA_DA_CAMBIARE", office);
-    }
-
     private static void getColumnName(TypeTable tableName) {
         switch (tableName) {
             case T_PAD_NOTE_PRATICA:
@@ -79,35 +72,6 @@ public class PreprareCommonScript {
                 break;
             default:
                 break;
-        }
-    }
-
-    public static void createFileSql(String tableName, String numIncident) {
-        scriptSQL += "COMMIT;";
-        String fileName = "V01_01_LMBE_APP_".concat(numIncident).concat("_").concat(tableName).concat("_").concat("BONIFICA_NOTE");
-
-        try {
-            FileWriter fileout = new FileWriter(fileName.concat(".sql"));
-            fileout.write(scriptSQL);
-            fileout.close();
-
-            System.out.println("Script created correctly!");
-        } catch (IOException e) {
-            System.out.println("An error occurred." + e);
-        }
-    }
-
-    public static void createFileMongolo(String numIncident) {
-        String fileName = "V01_01_LMSP_OWN_".concat(numIncident).concat("_").concat("BONIFICA_FILIALE_ISP");
-
-        try {
-            FileWriter fileout = new FileWriter(fileName.concat(".js"));
-            fileout.write(scriptMongolo);
-            fileout.close();
-
-            System.out.println("\nScript created correctly!");
-        } catch (IOException e) {
-            System.out.println("An error occurred." + e);
         }
     }
 

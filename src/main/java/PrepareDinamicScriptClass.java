@@ -1,7 +1,7 @@
 import org.junit.Test;
 
-import static Utils.PreprareCommonScript.*;
-import static Utils.PreprareCommonScript.TypeTable.*;
+import static Utils.CommonCreateFile.createFileSql;
+import static Utils.PreprareCommonScript_SQL.*;
 
 public class PrepareDinamicScriptClass {
 
@@ -32,7 +32,7 @@ public class PrepareDinamicScriptClass {
             prepareComuneScriptDinamico(nota, idNota);
         });
 
-        createFileSql(String.valueOf(NOME_TABELLA), numIncident);
+        createFileSql(String.valueOf(NOME_TABELLA), numIncident, scriptSQL);
     }
 
 }

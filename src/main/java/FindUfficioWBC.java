@@ -13,10 +13,12 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
+import static Constants.Constants.LMSP_OWN;
 import static Constants.Constants.statiDaAssegnare;
 import static Utils.AddressingFileRule.*;
-import static Utils.PreprareCommonScript.createFileMongolo;
-import static Utils.PreprareCommonScript.createScriptMongoloDb;
+import static Utils.CommonCreateFile.createFileMongolo;
+import static Utils.PreprareCommonScript_MONGO.createScriptMongoloDb;
+import static Utils.PreprareCommonScript_MONGO.scriptMongolo;
 import static java.util.Objects.nonNull;
 
 public class FindUfficioWBC {
@@ -67,7 +69,7 @@ public class FindUfficioWBC {
 
                 if (!StringUtils.equalsIgnoreCase(superpratica.getFilialeIsp(), String.valueOf(office.getValue()))) {
                     createScriptMongoloDb(superpratica.get_id(), String.valueOf(office.getValue()));
-                    createFileMongolo(numIncident);
+                    createFileMongolo(numIncident, scriptMongolo);
                 }
             }
         } else if (!statiDaAssegnare.contains(superpratica.getFiltri().getUltimoStato())) {
